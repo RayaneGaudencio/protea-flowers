@@ -93,4 +93,13 @@ hr {
     border-top: 1px solid #0f270fbe;
     height: 1px;
     margin: 2em 0;
-  }
+}
+
+.carrossel {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.carrossel img {
+    height: 20em;
+}

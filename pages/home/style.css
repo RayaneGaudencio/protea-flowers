@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
 html {
     font-size: 10px;
 }
@@ -172,12 +172,41 @@ main h3 {
 .produtos-catalogos {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 2em;
     margin-top: 3em;
 }
 
 .produtos-catalogos img {
     width: 6em;
+    cursor: pointer;
+}
+
+.card h3{
+    font-size: 15px;
+    position: absolute;
+    padding: 3.3%;
+    display: none;
+    font-weight: normal;
+}
+
+.card{
+    height: 112px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.card:hover{
+    opacity: 0.9;
+    box-shadow: rgba(0, 0, 0, 0.50);
+}
+
+.card:hover.card h3{
+    display: block;
+}
+
+.card:hover.card img{
+    visibility: hidden;
 }
 
 .mapa {
@@ -186,19 +215,26 @@ main h3 {
     align-items: center;
     gap: 2em;
     background-color: #859479;
-
 }
-
 #texto-mapa {
     margin-bottom: 2em;
 }
 
 .informacoes {
-    display: grid;
+    /*display: grid;
     grid-template-columns: auto auto auto;
     text-align: center;
+    padding: 5em;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 2em;
+    margin: 2em 0;
+}
 
-    padding: 5em;
+.informacoes-left {
+    width: 439.53px;
 }
 
 .informacoes-left li, .informacoes-right li {
@@ -210,25 +246,91 @@ main h3 {
 .vertical-line {
     transform: rotate(90deg);
     /* rotação de 90 graus */
-    height: 100px;
+   width: 350px;
     /* altura desejada da linha vertical */
-    margin: 0 auto;
+    margin-top: 13%;
     /* centralizar horizontalmente */
-    display: block;
+    /*display: block;*/
     /* tornar a linha um elemento em bloco */
 }
 
 .images-footer {
-    display: grid;
-    grid-template-columns: auto auto auto;
+    /*display: grid;
+    grid-template-columns: auto auto auto;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.box-images-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .images-footer div img {
     width: 11em;
     height: 10em;
+    cursor: pointer;
 }
 
 .images-footer div span {
+    width: 100%;
+    margin-top: 10px;
     text-align: center;
     background-color: #859479;
+    cursor: pointer;
 }
+
+.images-footer div span:hover{
+    color: #000000;
+}
+
+footer{
+    background-color: #0F270F;
+    font-size: 23px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+footer h2{
+    font-family: 'Marcellus SC', serif;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+.box-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-left-footer, .box-rigth-footer{
+    font-size: 20px;
+}
+
+.box-rigth-footer img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.box-rigth-footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2% 0;
+}
+
+.space-list{
+    margin-top: 22%;
+}
+

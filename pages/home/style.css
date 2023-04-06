@@ -102,7 +102,8 @@ hr {
     border: none;
     border-top: 1px solid #0f270fbe;
     height: 1px;
-    margin: 2em 0;
+    width: 80%;
+    margin: 2em auto;
 }
 
 .carrossel {
@@ -115,7 +116,7 @@ hr {
 }
 
 main {
-    padding: 1em;
+    /* padding: 1em; */
     font-size: 2.3em;
     background-color: #efefee;
 }
@@ -132,7 +133,7 @@ main h3 {
     margin-top: 2em;
 
     display: flex;
-    gap: 4em;
+    gap: 3em;
     justify-content: center;
 }
 
@@ -166,4 +167,68 @@ main h3 {
 
 #circulo6 {
     background-color: #B838C8;
+}
+
+.produtos-catalogos {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 3em;
+}
+
+.produtos-catalogos img {
+    width: 6em;
+}
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    background-color: #859479;
+
+}
+
+#texto-mapa {
+    margin-bottom: 2em;
+}
+
+.informacoes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+
+    padding: 5em;
+}
+
+.informacoes-left li, .informacoes-right li {
+    color: #0F270F;
+    list-style: none;
+    margin-bottom: 2em;
+}
+
+.vertical-line {
+    transform: rotate(90deg);
+    /* rotação de 90 graus */
+    height: 100px;
+    /* altura desejada da linha vertical */
+    margin: 0 auto;
+    /* centralizar horizontalmente */
+    display: block;
+    /* tornar a linha um elemento em bloco */
+}
+
+.images-footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.images-footer div img {
+    width: 11em;
+    height: 10em;
+}
+
+.images-footer div span {
+    text-align: center;
+    background-color: #859479;
 }

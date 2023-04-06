@@ -11,6 +11,15 @@ html {
     color: #FFFFFF;
 }
 
+.buttons {
+    cursor: pointer;
+}
+
+.buttons:hover {
+    color: #0F270F;
+    border-bottom: 1px solid black;
+}
+
 header {
     background-color: #859479;
     padding: 2em;
@@ -27,7 +36,7 @@ header {
 .botoes-vendedor, .botoes-entrar-cadastrar {
     display: flex;
     gap: 2em;
-    cursor: pointer;
+    padding: 0.5em;
 }
 
 .barra-pesquisa {
@@ -86,6 +95,7 @@ header {
 
 .header-bottom div img {
   width: 1em;
+  cursor: pointer;
 }
 
 hr {
@@ -102,4 +112,58 @@ hr {
 
 .carrossel img {
     height: 20em;
+}
+
+main {
+    padding: 1em;
+    font-size: 2.3em;
+    background-color: #efefee;
+}
+
+main h3 {
+    text-align: center;
+}
+
+.text-capslock {
+    color: #0F270F;
+}
+
+.circulos {
+    margin-top: 2em;
+
+    display: flex;
+    gap: 4em;
+    justify-content: center;
+}
+
+.circulos span {
+    padding: 0.5em;
+    border-radius: 50%;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+}
+
+#circulo1{
+    background-color: #BB0707;
+}
+
+#circulo2 {
+    background-color: #7F1E17;
+}
+
+#circulo3 {
+    background-color: #7F1E17;
+}
+
+#circulo4 {
+    background-color: #C46847;
+}
+
+#circulo5 {
+    background-color: #A9577E;
+}
+
+#circulo6 {
+    background-color: #B838C8;
 }

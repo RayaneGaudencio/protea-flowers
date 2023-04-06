@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protea Flowers</title>
+    <link rel="stylesheet" href="style.css">
+
+  <!-- Importação dos arquivos CSS do Slick carousel -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+  <!-- Importação do jQuery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </script>
+</head>
+</head>
+<body>
+    <header id="box-principal">
+        <div class="header-top">
+            <nav class="botoes-vendedor">
+                <span class="buttons">Central do Vendedor</span>
+                <span class="buttons">Torne-se Vendedor</span>
+            </nav>
+            <div class="barra-pesquisa">
+                <img src="images/icon-search.png" alt="">
+                <input 
+                type="search" 
+                name="pesquisar" 
+                id="input-pesquisa"
+                placeholder="Buscar..." onclick="this.placeholder=''">
+            </div>
+            <nav class="botoes-entrar-cadastrar">
+                <span id="entrar" class="buttons">Entrar</span>
+                <span class="buttons">Cadastre-se</span>
+            </nav>
+        </div>
+        <div class="header-bottom">
+            <a href="index.html">
+                <img id="logo" src="images/logo.png" alt="Logo da Protea Flowers">
+            </a>
+            <nav>
+                <span class="buttons">HOME</span>
+                <span class="buttons">PRODUTOS</span>
+                <span class="buttons">CATALOGOS</span>
+                <span class="buttons">NOSSA HISTÓRIA</span>
+                <span class="buttons">CONTATO</span>
+            </nav>
+            <div>
+                <img class="icon-header" src="images/🦆 icon _person_.png" alt="Ícone de pessoa">
+                <img class="icon-header" src="images/🦆 icon _bell_.png" alt="ícone de sino">
+                <img class="icon-header" src="images/🦆 icon _cart_.png" alt="Ícone de carrinho">
+            </div>
+        </div>
+        <hr>
+        <section class="carrossel">
+            <img src="images/imagem1-carrossel.png" alt="">
+            <img src="images/imagem1-carrossel.png" alt="">
+            <img src="images/imagem1-carrossel.png" alt="">
+        </section>
+    </header>
+    <main>
+        <hr>
+        <h3 class="text-capslock">CONHEÇA NOSSOS PRODUTOS E CATALÓGOS</h3>
+        <div class="circulos">
+            <span id="circulo1"></span>
+            <span id="circulo2"></span>
+            <span id="circulo3"></span>
+            <span id="circulo4"></span>
+            <span id="circulo5"></span>
+            <span id="circulo6"></span>
+        </div>
+        <section class="produtos-catalogos">
+            <div class="card">
+                <h3>Bromélia</h3>
+                <img src="images/bromelia.png" alt="Bromélia">
+            </div>
+            <span></span>
+
+            <div class="card">
+                <h3>Oleandro</h3>
+                <img src="images/oleandro.png" alt="Oleandro">
+            </div>
+            <span></span>
+
+            <div class="card">
+                <h3>Íris</h3>
+                <img src="images/iris.png" alt="Íris">
+            </div>
+            <span></span>
+
+            <div class="card">
+                <h3>Magentia</h3>
+                <img src="images/magentia.png" alt="Magentia">
+            </div>
+            <span></span>
+            
+            <div class="card">
+                <h3>Lilás</h3>
+                <img src="images/lilas.png" alt="Lilás">
+            </div>
+           
+        </section>
+        <hr>
+        <h3 class="text-capslock" id="texto-mapa">PROTEA FLOWERS AO REDOR DO MUNDO</h3>
+        <div class="mapa">
+            <img src="images/mapa.png" alt="Mapa com pins em países que a Protea está presente">
+        </div>
+        <section class="informacoes">
+            <ul class="informacoes-left">
+                <li>FUNDAÇÃO EM 1969</li>
+                <li>+100 VARIEDADES DE FLORES</li>
+                <li>+90 ESTUFAS DOS PRODUTORES</li>
+                <li>FROTA ESPECIALIZADA</li>
+                <li>+500 ROTAS DE TRANSPORTE</li>
+            </ul>
+            <hr class="vertical-line">
+            <ul class="informacoes-right">
+                <li>CONTÊINERES CLIMATIZADOS</li>
+                <li>+1,000 ARMAZÉNS CLIMATIZADOS</li>
+                <li>DIMINUIR EM 80% AS EMISSÕES ATÉ 2030</li>
+                <li>+100 MILHÕES DE FLORES COMERCIALIZADAS</li>
+                <li>+300 ROTAS DE TRANSPORTE</li>
+            </ul>
+        </section>
+        <section class="images-footer">
+            <div class="box-images-footer">
+                <img src="images/home-decor.png" alt="">
+                <span>HOME DECOR</span>
+            </div>
+            <div class="box-images-footer">
+                <img src="images/cama-mesa-banho.png" alt="">
+                <span>CAMA, MESA E BANHO</span>
+            </div>
+            <div class="box-images-footer">
+                <img src="images/festividades.png" alt="">
+                <span>FESTIVIDADES</span>
+            </div>
+        </section>
+
+        <section class="modal">
+            <span class="legenda">Home | Entrar</span>
+            <div class="box-modal">
+                <img class="img-fechar" src="images/fechar.png">
+                <div class="clear"></div><!-- Limpeza da flutuação -->
+                <h3>LOGIN DO CLIENTE</h3>
+                <span class="text-modal">Bem vindo de volta ao nosso Jardim!</span>
+                <br>
+                <img class="img-google" src="images/button-google.png">
+                <form>
+                    <input class="input-login" type="e-mail" name="" placeholder="E-mail">
+                    <br>
+                    <input class="input-login" type="password" name="" placeholder="Senha">
+
+                    <div class="link-ajuda">
+                        <span class="text-red">Esqueceu a senha?</span>
+                        <span class="text-gray">Precisa de ajuda?</span>
+                    </div>
+
+                    <input type="submit" name="" value="Entrar">
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <h2>Entre em contato para mais informações</h2>
+            <div class="box-footer">
+                <div class="box-left-footer">
+                    <ul>
+                        <li>Rua das Colhetas, 258-A, Apipucos</li>
+                        <li>Recife, PE - Brasil</li>
+                        <li>CEP: 10254-330</li>
+                        <br>
+                        <br>
+                        <li>P&F DECORAÇÃO E AMBIENTAÇÃO</li>
+                        <li>LTDA 08.591.212/0004-07</li>
+                    </ul>
+                </div>
+
+                <div class="logo-footer">
+                     <img src="images/logo.png">
+                </div>
+                
+                <div class="box-rigth-footer">
+                    <span>Encontre-nos nas redes sociais</span>
+                    <ul>
+                        <li>
+                            <img src="images/facebook.png">
+                        </li>
+                        <li>
+                            <img src="images/instagram.png">
+                        </li>
+                        <li>
+                            <img src="images/whatsapp.png">
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <img src="images/logotipo-do-pinterest.png">
+                        </li>
+                        <li>
+                            <img src="images/twitter.png">
+                        </li>
+                        <li>
+                            <img src="images/youtube.png">
+                        </li>
+                    </ul>
+                    <span>contato@proteaflowers.com.br</span>
+                </div>
+            </div>
+            
+        </footer>
+    </main>
+
+    <!-- Importação do arquivo JavaScript do Slick carousel -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

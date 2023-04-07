@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protea Flowers | Cadastro Cliente</title>
+    <link rel="stylesheet" href="estiloCliente.css">
+  <!-- Importação dos arquivos CSS do Slick carousel -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+  <!-- Importação do jQuery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </script>
+</head>
+<body>
+	<header id="box-principal">
+        <div class="header-top">
+            <nav class="botoes-vendedor">
+                <span id="Central-vendedor" class="buttons">Central do Vendedor</span>
+                <span class="buttons">Torne-se Vendedor</span>
+            </nav>
+            <div class="barra-pesquisa">
+                <img src="images/icon-search.png" alt="">
+                <input 
+                type="search" 
+                name="pesquisar" 
+                id="input-pesquisa"
+                placeholder="Buscar..." onclick="this.placeholder=''">
+            </div>
+            <nav class="botoes-entrar-cadastrar">
+                <span id="entrar" class="buttons">Entrar</span>
+                <span class="buttons">Cadastre-se</span>
+            </nav>
+        </div>
+        <div class="header-bottom">
+            <a href="index.html">
+                <img id="logo" src="images/logo.png" alt="Logo da Protea Flowers">
+            </a>
+            <nav>
+                <span class="buttons">HOME</span>
+                <span class="buttons">PRODUTOS</span>
+                <span class="buttons">CATALOGOS</span>
+                <span class="buttons">NOSSA HISTÓRIA</span>
+                <span class="buttons">CONTATO</span>
+            </nav>
+            <div>
+                <img class="icon-header" src="images/🦆 icon _person_.png" alt="Ícone de pessoa">
+                <img class="icon-header" src="images/🦆 icon _bell_.png" alt="ícone de sino">
+                <img class="icon-header" src="images/🦆 icon _cart_.png" alt="Ícone de carrinho">
+            </div>
+        </div>
+        <hr>
+    </header>
+    <main>
+    	<section class="box-central">
+    		<span>Home | Cadastre-se</span>
+    		<div class="box-cards">
+    			<div class="card-info-vendedor">
+	    			<img src="images/banner-jardin.png">
+	    		</div>
+	    		
+	    		<div class="card-form-vendedor">
+	    			<h3>Cadastro do Cliente</h3>
+	    			<form class="form">
+	    				<div class="form-line">
+	    					<div class="box-form-line">
+	    						<label >Nome</label>
+	    						<input class="input" type="text" name="">
+	    					</div>
+	    					<div class="box-form-line">
+	    						<label class="label-line">Sobrenome</label>
+	    						<input class="input-line input" type="text" name="">
+	    					</div>
+	    				</div>
+	    				<label>E-mail</label>
+	    				<input class="input" type="email" name="">
+
+	    				<label>Número de telefone</label>
+	    				<input class="input" type="text" name="">
+
+	    				<label>Senha</label>
+	    				<input class="input" type="password" name="">
+
+	    				<label>Confirmar senha</label>
+	    				<input class="input" type="password" name="">
+
+	    				<div class="form-line">
+	    					<div class="box-form-line">
+	    						<label>Endereço</label>
+	    						<input class="input-line-tall input" type="text" name="">
+	    					</div>
+	    					<div class="box-form-line">
+	    						<label class="label-line-small">CEP</label>
+	    						<input class="input-line-small input" type="text" name="">
+	    					</div>
+	    				</div>
+	    			</form>
+	    			
+		    		<input class="sobre-submit" type="submit" name="" value="Cadastrar">
+		    		<div class="clear"></div><!-- Limpeza da fltuação -->
+	    		</div>
+    		</div>
+    	</section>
+    	<footer>
+            <h2>Entre em contato para mais informações</h2>
+            <div class="box-footer">
+                <div class="box-left-footer">
+                    <ul>
+                        <li>Rua das Colhetas, 258-A, Apipucos</li>
+                        <li>Recife, PE - Brasil</li>
+                        <li>CEP: 10254-330</li>
+                        <br>
+                        <br>
+                        <li>P&F DECORAÇÃO E AMBIENTAÇÃO</li>
+                        <li>LTDA 08.591.212/0004-07</li>
+                    </ul>
+                </div>
+
+                <div class="logo-footer">
+                     <img src="images/logo.png">
+                </div>
+                
+                <div class="box-rigth-footer">
+                    <span>Encontre-nos nas redes sociais</span>
+                    <ul>
+                        <li>
+                            <img src="images/facebook.png">
+                        </li>
+                        <li>
+                            <img src="images/instagram.png">
+                        </li>
+                        <li>
+                            <img src="images/whatsapp.png">
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <img src="images/logotipo-do-pinterest.png">
+                        </li>
+                        <li>
+                            <img src="images/twitter.png">
+                        </li>
+                        <li>
+                            <img src="images/youtube.png">
+                        </li>
+                    </ul>
+                    <span>contato@proteaflowers.com.br</span>
+                </div>
+            </div>
+            
+        </footer>
+    </main>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

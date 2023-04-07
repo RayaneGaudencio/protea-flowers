@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
-html {
+html, body {
     font-size: 10px;
+    width: 100%;
+    max-width: 1366px;
+    margin: auto;
 }
 
 * {
@@ -14,8 +17,15 @@ html {
 .buttons {
     cursor: pointer;
 }
-
+.buttons a{
+    text-decoration: none;
+}
 .buttons:hover {
+    color: #0F270F;
+    border-bottom: 1px solid black;
+}
+
+.buttons a:hover {
     color: #0F270F;
     border-bottom: 1px solid black;
 }
@@ -293,7 +303,7 @@ main h3 {
 .modal{
     width: 55%;
     height: auto;
-    margin-top: 7%;
+    margin-top: 6%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -316,7 +326,7 @@ main h3 {
 .box-modal h3{
     font-weight: normal;
     color: black;
-    margin: 2% 0;
+    margin:  0;
 }
 
 .text-modal{
@@ -328,7 +338,7 @@ main h3 {
     width: 35px;
     height: 35px;
     float: right;
-    margin: 10px;
+    margin: 10px 10px 0 10px;
     cursor: pointer;
 }
 

@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protea Flowers | Cadastro Cliente</title>
+    <link rel="stylesheet" href="estiloProdutos.css">
+  <!-- Importação dos arquivos CSS do Slick carousel -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+  <!-- Importação do jQuery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </script>
+</head>
+<body>
+	<header id="box-principal">
+        <div class="header-top">
+            <nav class="botoes-vendedor">
+                <span id="Central-vendedor" class="buttons">Central do Vendedor</span>
+                <span class="buttons">Torne-se Vendedor</span>
+            </nav>
+            <div class="barra-pesquisa">
+                <img src="images/icon-search.png" alt="">
+                <input 
+                type="search" 
+                name="pesquisar" 
+                id="input-pesquisa"
+                placeholder="Buscar..." onclick="this.placeholder=''">
+            </div>
+            <nav class="botoes-entrar-cadastrar">
+                <span id="entrar" class="buttons">Entrar</span>
+                <span class="buttons">Cadastre-se</span>
+            </nav>
+        </div>
+        <div class="header-bottom">
+            <a href="index.html">
+                <img id="logo" src="images/logo.png" alt="Logo da Protea Flowers">
+            </a>
+            <nav>
+                <span class="buttons">HOME</span>
+                <span class="buttons">PRODUTOS</span>
+                <span class="buttons">CATALOGOS</span>
+                <span class="buttons">NOSSA HISTÓRIA</span>
+                <span class="buttons">CONTATO</span>
+            </nav>
+            <div>
+                <img class="icon-header" src="images/🦆 icon _person_.png" alt="Ícone de pessoa">
+                <img class="icon-header" src="images/🦆 icon _bell_.png" alt="ícone de sino">
+                <img class="icon-header" src="images/🦆 icon _cart_.png" alt="Ícone de carrinho">
+            </div>
+        </div>
+        <hr>
+    </header>
+    <main>
+
+        <section class="box-central">
+            <div class="barra-lateral">
+                <br>
+                <div class="box-caminho">
+                    <span>Home | Produtos</span>
+                </div>
+                
+                <div class="box-filtro">
+                    <img src="images/filtro.png">
+                    <h3>Filtros</h3>
+                </div>
+                <div class="box-categorias">
+                    <h3>Categorias</h3>
+                    <ul>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>Flores tropicais de verão</li>
+                        </div>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>Flores tropicais de inverno</li>
+                        </div>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>Flores de primavera</li>
+                        </div>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>Sementes</li>
+                        </div>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>Folhagens</li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="box-categorias">
+                    <h3>Enviado de:</h3>
+                    <ul>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>Internacional</li>
+                        </div>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>Nacional</li>
+                        </div>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>Pernambuco</li>
+                        </div>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>São Paulo</li>
+                        </div>
+                       
+                    </ul>
+                </div>
+               <div class="box-categorias">
+                    <h3>LOJAS</h3>
+                    <ul>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>Mais vendidos</li>
+                        </div>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>Indicados</li>
+                        </div>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>Melhores avaliações</li>
+                        </div>
+                       
+                    </ul>
+                </div>
+                 <div class="box-categorias">
+                    <h3>Enviado de:</h3>
+                    <ul>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>Internacional</li>
+                        </div>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>Nacional</li>
+                        </div>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>Pernambuco</li>
+                        </div>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>São Paulo</li>
+                        </div>
+                    </ul>
+                </div>
+                 <div class="box-categorias">
+                    <h3>FAIXA DE PREÇOS</h3>
+                    <ul>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>R$ 50,00</li>
+                        </div>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>R$ 75,00</li>
+                        </div>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>R$ 100,00</li>
+                        </div>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>R$ 200,00</li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="box-categorias">
+                    <h3>PROMOÇÕES</h3>
+                    <ul>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li> Frete grátis acima de R$ 50,00</li>
+                        </div>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>Novos produtos</li>
+                        </div>
+                        <div class="box-opcoes">
+                            <img src="images/marcador.png">
+                            <li>Produtos com desconto</li>
+                        </div>
+                    </ul>
+                </div>
+                 <div class="box-categorias">
+                    <h3>AVALIAÇÕES</h3>
+                    <ul>
+                        <li>
+                            <img class="avaliacao" src="images/avaliacao.png">
+                        </li>
+                        <li>
+                            <img class="avaliacao" src="images/avaliacao.png">
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="botton-lateral">Aplicar Filtros</button>
+                <button class="botton-lateral">Limpar Filtros</button>
+            </div>
+
+            <div class="box-produtos">
+                <div class="box-titulo">
+                    <h3>PRODUTOS EM EXIBIÇÃO</h3>
+                </div>
+                <div class="teste">
+                    <div class="box-demonstracao">
+                        <div class="box-info-produtos">
+                            <img src="images/demostracao.png">
+                            <h4>BROMÉLIA ROSA</h4>
+                            <div class="text-info">
+                                <span>Código: ADERLO88</span>
+                                <span>Disponível em estoque</span>
+                            </div>
+                            <div class="preco-qtd">
+                                <div class="box-preco-qtd">
+                                    <span>R$ 170,00 un</span>
+                                </div>
+                                <div style="background-color: #859479;" class="box-preco-qtd">
+                                    <span>QUANTIDADE</span>
+                                    <input class="number" type="number" name="">
+                                </div>
+                            </div>
+                            <p>5x de R$ 34,00 sem juros</p>
+                            <div class="box-button">
+                                <button>ADICIONAR AO CARRINHO</button>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="box-demonstracao">
+                        <div class="box-info-produtos">
+                            <img src="images/demostracao.png">
+                            <h4>BROMÉLIA ROSA</h4>
+                            <div class="text-info">
+                                <span>Código: ADERLO88</span>
+                                <span>Disponível em estoque</span>
+                            </div>
+                            <div class="preco-qtd">
+                                <div class="box-preco-qtd">
+                                    <span>R$ 170,00 un</span>
+                                </div>
+                                <div style="background-color: #859479;" class="box-preco-qtd">
+                                    <span>QUANTIDADE</span>
+                                    <input class="number" type="number" name="">
+                                </div>
+                            </div>
+                            <p>5x de R$ 34,00 sem juros</p>
+                            <div class="box-button">
+                                <button>ADICIONAR AO CARRINHO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="teste">
+                    <div class="box-demonstracao">
+                        <div class="box-info-produtos">
+                            <img src="images/demostracao.png">
+                            <h4>BROMÉLIA ROSA</h4>
+                            <div class="text-info">
+                                <span>Código: ADERLO88</span>
+                                <span>Disponível em estoque</span>
+                            </div>
+                            <div class="preco-qtd">
+                                <div class="box-preco-qtd">
+                                    <span>R$ 170,00 un</span>
+                                </div>
+                                <div style="background-color: #859479;" class="box-preco-qtd">
+                                    <span>QUANTIDADE</span>
+                                    <input class="number" type="number" name="">
+                                </div>
+                            </div>
+                            <p>5x de R$ 34,00 sem juros</p>
+                            <div class="box-button">
+                                <button>ADICIONAR AO CARRINHO</button>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="box-demonstracao">
+                        <div class="box-info-produtos">
+                            <img src="images/demostracao.png">
+                            <h4>BROMÉLIA ROSA</h4>
+                            <div class="text-info">
+                                <span>Código: ADERLO88</span>
+                                <span>Disponível em estoque</span>
+                            </div>
+                            <div class="preco-qtd">
+                                <div class="box-preco-qtd">
+                                    <span>R$ 170,00 un</span>
+                                </div>
+                                <div style="background-color: #859479;" class="box-preco-qtd">
+                                    <span>QUANTIDADE</span>
+                                    <input class="number" type="number" name="">
+                                </div>
+                            </div>
+                            <p>5x de R$ 34,00 sem juros</p>
+                            <div class="box-button">
+                                <button>ADICIONAR AO CARRINHO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="teste">
+                    <div class="box-demonstracao">
+                        <div class="box-info-produtos">
+                            <img src="images/demostracao.png">
+                            <h4>BROMÉLIA ROSA</h4>
+                            <div class="text-info">
+                                <span>Código: ADERLO88</span>
+                                <span>Disponível em estoque</span>
+                            </div>
+                            <div class="preco-qtd">
+                                <div class="box-preco-qtd">
+                                    <span>R$ 170,00 un</span>
+                                </div>
+                                <div style="background-color: #859479;" class="box-preco-qtd">
+                                    <span>QUANTIDADE</span>
+                                    <input class="number" type="number" name="">
+                                </div>
+                            </div>
+                            <p>5x de R$ 34,00 sem juros</p>
+                            <div class="box-button">
+                                <button>ADICIONAR AO CARRINHO</button>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="box-demonstracao">
+                        <div class="box-info-produtos">
+                            <img src="images/demostracao.png">
+                            <h4>BROMÉLIA ROSA</h4>
+                            <div class="text-info">
+                                <span>Código: ADERLO88</span>
+                                <span>Disponível em estoque</span>
+                            </div>
+                            <div class="preco-qtd">
+                                <div class="box-preco-qtd">
+                                    <span>R$ 170,00 un</span>
+                                </div>
+                                <div style="background-color: #859479;" class="box-preco-qtd">
+                                    <span>QUANTIDADE</span>
+                                    <input class="number" type="number" name="">
+                                </div>
+                            </div>
+                            <p>5x de R$ 34,00 sem juros</p>
+                            <div class="box-button">
+                                <button>ADICIONAR AO CARRINHO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="teste">
+                    <div class="box-demonstracao">
+                        <div class="box-info-produtos">
+                            <img src="images/demostracao.png">
+                            <h4>BROMÉLIA ROSA</h4>
+                            <div class="text-info">
+                                <span>Código: ADERLO88</span>
+                                <span>Disponível em estoque</span>
+                            </div>
+                            <div class="preco-qtd">
+                                <div class="box-preco-qtd">
+                                    <span>R$ 170,00 un</span>
+                                </div>
+                                <div style="background-color: #859479;" class="box-preco-qtd">
+                                    <span>QUANTIDADE</span>
+                                    <input class="number" type="number" name="">
+                                </div>
+                            </div>
+                            <p>5x de R$ 34,00 sem juros</p>
+                            <div class="box-button">
+                                <button>ADICIONAR AO CARRINHO</button>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="box-demonstracao">
+                        <div class="box-info-produtos">
+                            <img src="images/demostracao.png">
+                            <h4>BROMÉLIA ROSA</h4>
+                            <div class="text-info">
+                                <span>Código: ADERLO88</span>
+                                <span>Disponível em estoque</span>
+                            </div>
+                            <div class="preco-qtd">
+                                <div class="box-preco-qtd">
+                                    <span>R$ 170,00 un</span>
+                                </div>
+                                <div style="background-color: #859479;" class="box-preco-qtd">
+                                    <span>QUANTIDADE</span>
+                                    <input class="number" type="number" name="">
+                                </div>
+                            </div>
+                            <p>5x de R$ 34,00 sem juros</p>
+                            <div class="box-button">
+                                <button>ADICIONAR AO CARRINHO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="teste">
+                    <div class="box-demonstracao">
+                        <div class="box-info-produtos">
+                            <img src="images/demostracao.png">
+                            <h4>BROMÉLIA ROSA</h4>
+                            <div class="text-info">
+                                <span>Código: ADERLO88</span>
+                                <span>Disponível em estoque</span>
+                            </div>
+                            <div class="preco-qtd">
+                                <div class="box-preco-qtd">
+                                    <span>R$ 170,00 un</span>
+                                </div>
+                                <div style="background-color: #859479;" class="box-preco-qtd">
+                                    <span>QUANTIDADE</span>
+                                    <input class="number" type="number" name="">
+                                </div>
+                            </div>
+                            <p>5x de R$ 34,00 sem juros</p>
+                            <div class="box-button">
+                                <button>ADICIONAR AO CARRINHO</button>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="box-demonstracao">
+                        <div class="box-info-produtos">
+                            <img src="images/demostracao.png">
+                            <h4>BROMÉLIA ROSA</h4>
+                            <div class="text-info">
+                                <span>Código: ADERLO88</span>
+                                <span>Disponível em estoque</span>
+                            </div>
+                            <div class="preco-qtd">
+                                <div class="box-preco-qtd">
+                                    <span>R$ 170,00 un</span>
+                                </div>
+                                <div style="background-color: #859479;" class="box-preco-qtd">
+                                    <span>QUANTIDADE</span>
+                                    <input class="number" type="number" name="">
+                                </div>
+                            </div>
+                            <p>5x de R$ 34,00 sem juros</p>
+                            <div class="box-button">
+                                <button>ADICIONAR AO CARRINHO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 
+               
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    	
+    	<footer>
+            <h2>Entre em contato para mais informações</h2>
+            <div class="box-footer">
+                <div class="box-left-footer">
+                    <ul>
+                        <li>Rua das Colhetas, 258-A, Apipucos</li>
+                        <li>Recife, PE - Brasil</li>
+                        <li>CEP: 10254-330</li>
+                        <br>
+                        <br>
+                        <li>P&F DECORAÇÃO E AMBIENTAÇÃO</li>
+                        <li>LTDA 08.591.212/0004-07</li>
+                    </ul>
+                </div>
+
+                <div class="logo-footer">
+                     <img src="images/logo.png">
+                </div>
+                
+                <div class="box-rigth-footer">
+                    <span>Encontre-nos nas redes sociais</span>
+                    <ul>
+                        <li>
+                            <img src="images/facebook.png">
+                        </li>
+                        <li>
+                            <img src="images/instagram.png">
+                        </li>
+                        <li>
+                            <img src="images/whatsapp.png">
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <img src="images/logotipo-do-pinterest.png">
+                        </li>
+                        <li>
+                            <img src="images/twitter.png">
+                        </li>
+                        <li>
+                            <img src="images/youtube.png">
+                        </li>
+                    </ul>
+                    <span>contato@proteaflowers.com.br</span>
+                </div>
+            </div>
+            
+        </footer>
+    </main>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

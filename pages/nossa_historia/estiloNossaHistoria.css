@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+html, body {
+    font-size: 10px;
+    width: 100%;
+    max-width: 1366px;
+    margin: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Scada', 'son-serif';
+    color: #FFFFFF;
+}
+
+.buttons {
+    cursor: pointer;
+}
+
+.buttons:hover {
+    color: #0F270F;
+    border-bottom: 1px solid black;
+}
+
+header {
+    background-color: #859479;
+    padding: 2em;
+    font-size: 2.3em;
+}
+
+.header-top {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.botoes-vendedor, .botoes-entrar-cadastrar {
+    display: flex;
+    gap: 2em;
+    padding: 0.5em;
+}
+
+.barra-pesquisa {
+    position: relative;
+    display: inline-block;
+}
+
+.barra-pesquisa img {
+    position: absolute;
+    width: 1em;
+    top: 0.4em;
+    margin-left: 16em;
+    cursor: pointer;
+}
+
+#input-pesquisa {
+    background-color: #f2f2f2;
+    border: none;
+    color: #37644e;
+    padding: 1em;
+    width: 30em;
+    border-radius: 2em;
+    outline: none;
+}
+
+#input-pesquisa:focus {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+/* Remove o botão de limpar ( X ) em campos de input do tipo search */
+::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+  }
+
+#logo {
+    width: 200px;
+    height: 60px;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* para que os span fiquem com espaços entre eles */
+.header-bottom nav {
+    display: flex;
+    gap: 2em;
+}
+
+.header-bottom div {
+    display: flex;
+    gap: 2em;
+}
+
+.header-bottom div img {
+  width: 1em;
+  cursor: pointer;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #0f270fbe;
+    height: 1px;
+    width: 100%;
+    margin: 2em auto;
+    margin-bottom: 0;
+}
+
+
+main {
+    padding: 2em;
+    font-size: 2.3em;
+    background-color: #efefee;
+}
+
+main span {
+    color: #0F270F;
+}
+
+#titulo-nh {
+    font-family: 'Marcellus SC', serif;
+    margin-bottom: 50px;
+    color: #0F270F;
+    border-left: 5px solid #859479;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+.titulo-bloco-info {
+    font-family: 'Marcellus', serif;
+}
+
+.bloco-info-nh {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2em;
+}
+
+.bloco-info-nh p, .bloco-info-nh h3 {
+    color: #0F270F;
+}
+
+#texto-bloco-info-1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    
+}
+
+#texto-bloco-info-2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: right;
+}
+
+#texto-bloco-info-3 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+}
+
+.imagem-bloco-info {
+    width: 30%;
+}
+
+.titulo-bloco-info{
+    font-size: 1.5em;
+}
+
+
+
+
+footer{
+    background-color: #0F270F;
+    font-size: 23px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+footer h2{
+    font-family: 'Marcellus SC', serif;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+.box-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-left-footer, .box-rigth-footer{
+    font-size: 20px;
+}
+
+.box-rigth-footer img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.box-rigth-footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2% 0;
+}
+
+.space-list{
+    margin-top: 22%;
+}

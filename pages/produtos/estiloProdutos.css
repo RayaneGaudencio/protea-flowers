@@ -18,7 +18,17 @@ html, body {
     cursor: pointer;
 }
 
+/* adicionei esse - copiei do index*/
+.buttons a{
+    text-decoration: none;
+}
 .buttons:hover {
+    color: #0F270F;
+    border-bottom: 1px solid black;
+}
+
+/* adicionei esse - copiei do index*/
+.buttons a:hover {
     color: #0F270F;
     border-bottom: 1px solid black;
 }

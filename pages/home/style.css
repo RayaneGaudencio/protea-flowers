@@ -129,16 +129,20 @@ hr {
 }
 
 main {
-    /* padding: 1em; */
+    padding: 1em;
     font-size: 2.3em;
 }
 
 main h3 {
     text-align: center;
+    display: inline;
 }
 
 .text-capslock {
     color: #0F270F;
+    margin: 40rem;
+    border-left: 0.12em solid #859479;
+    padding-left: 0.2em;
 }
 
 .circulos {
@@ -228,6 +232,7 @@ main h3 {
     gap: 2em;
     background-color: #859479;
 }
+
 #texto-mapa {
     margin-bottom: 2em;
 }

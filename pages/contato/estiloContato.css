@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+html, body {
+    font-size: 10px;
+    width: 100%;
+    max-width: 1366px;
+    margin: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Scada', 'son-serif';
+    color: #FFFFFF;
+}
+
+.buttons {
+    cursor: pointer;
+}
+
+/* adicionei esse - copiei do index*/
+.buttons a{
+    text-decoration: none;
+}
+.buttons:hover {
+    color: #0F270F;
+    border-bottom: 1px solid black;
+}
+
+/* adicionei esse - copiei do index*/
+.buttons a:hover {
+    color: #0F270F;
+    border-bottom: 1px solid black;
+}
+
+header {
+    background-color: #859479;
+    padding: 2em;
+    font-size: 2.3em;
+}
+
+.header-top {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.botoes-vendedor, .botoes-entrar-cadastrar {
+    display: flex;
+    gap: 2em;
+    padding: 0.5em;
+}
+
+.barra-pesquisa {
+    position: relative;
+    display: inline-block;
+}
+
+.barra-pesquisa img {
+    position: absolute;
+    width: 1em;
+    top: 0.4em;
+    margin-left: 16em;
+    cursor: pointer;
+}
+
+#input-pesquisa {
+    background-color: #f2f2f2;
+    border: none;
+    color: #37644e;
+    padding: 1em;
+    width: 30em;
+    border-radius: 2em;
+    outline: none;
+}
+
+#input-pesquisa:focus {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+/* Remove o botão de limpar ( X ) em campos de input do tipo search */
+::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+  }
+
+#logo {
+    width: 200px;
+    height: 60px;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* para que os span fiquem com espaços entre eles */
+.header-bottom nav {
+    display: flex;
+    gap: 2em;
+}
+
+.header-bottom div {
+    display: flex;
+    gap: 2em;
+}
+
+.header-bottom div img {
+  width: 1em;
+  cursor: pointer;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #0f270fbe;
+    height: 1px;
+    width: 100%;
+    margin: 2em auto;
+    margin-bottom: 0;
+}
+
+
+main {
+    /* padding: 2em; */
+    font-size: 2.3em;
+    background-color: #efefee;
+}
+
+main span {
+    color: #0F270F;
+}
+
+#info-c {
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+#titulo-c {
+    font-family: 'Marcellus SC', serif;
+    margin-bottom: 50px;
+    color: #0F270F;
+    border-left: 5px solid #859479;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+.conteudo-c {
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bloco-c {
+    width: 50%;
+}
+
+.icon-c {
+    width: 1.5em;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.icon-link {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5em;
+}
+
+.icon-link h4 {
+    color: #0F270F;
+    cursor: pointer;
+}
+
+.icon-link h4:hover {
+    color: #859479;
+    
+}
+
+.assinatura label {
+    color:#0F270F;
+    font-weight: 700;
+}
+
+#icon-input-assinar {
+    width: 0.95em;
+    
+}
+
+#input-assinatura {
+    background-color: #FFFFFF;
+    border: 1px solid #767676;
+    color: #37644e;
+    padding: 1.25em;
+    padding-left: 4em;
+    width: 35em;
+    border-radius: 0.5em;
+    outline: none;
+}
+
+#input-assinatura:focus {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+
+
+#botao-enviar {
+    background-color: #CF8368;
+    border: 1px solid #767676;
+    cursor: pointer;
+    padding: 1.25em;
+    width: 10em;
+    border-radius: 0.5em;
+}
+
+#input-botao {
+    display: flex;
+    flex-direction: row;
+}
+
+.bloco-c h3{
+    color:#0F270F;
+}
+
+.redes-sociais {
+    margin-top: 2em;
+}
+
+.icon-rs {
+    width: 2.5em;
+    cursor: pointer;
+}
+
+
+.icons-redes-sociais {
+    width: 75%;
+    /* como alinhar o grid? */
+    padding-top: 1em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #0F270F;
+    font-size: 23px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+footer h2{
+    font-family: 'Marcellus SC', serif;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+.box-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-left-footer, .box-rigth-footer{
+    font-size: 20px;
+}
+
+.box-rigth-footer img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.box-rigth-footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2% 0;
+}
+
+.space-list{
+    margin-top: 22%;
+}

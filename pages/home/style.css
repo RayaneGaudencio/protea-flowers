@@ -5,6 +5,7 @@ html, body {
     width: 100%;
     max-width: 1366px;
     margin: auto;
+    background-color: #efefee;
 }
 
 * {
@@ -17,9 +18,11 @@ html, body {
 .buttons {
     cursor: pointer;
 }
+
 .buttons a{
     text-decoration: none;
 }
+
 .buttons:hover {
     color: #0F270F;
     border-bottom: 1px solid black;
@@ -113,7 +116,7 @@ hr {
     border-top: 1px solid #0f270fbe;
     height: 1px;
     width: 100%;
-    margin: 2em auto;
+    margin: 3em auto;
 }
 
 .carrossel {
@@ -128,7 +131,6 @@ hr {
 main {
     /* padding: 1em; */
     font-size: 2.3em;
-    background-color: #efefee;
 }
 
 main h3 {

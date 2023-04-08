@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         $('#box-principal').css("background-color", "#0F270F");
+        $('.buttons a').css("color", "gray");
         $('.buttons').css("color", "gray");
         $('#input-pesquisa').css("background-color", "gray");
         $('.icon-header').css("display", "none");
@@ -28,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
     $(".img-fechar").click(function(){
         $(".modal").fadeOut();   
         $('#box-principal').css("background-color", "#859479"); 
+        $('.buttons a').css("color", "#FFFFFF");
         $('.buttons').css("color", "#FFFFFF");
         $('#input-pesquisa').css("background-color", "#FFFFFF");
         $('.icon-header').css("display", "block");

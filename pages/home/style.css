@@ -116,7 +116,7 @@ hr {
     border-top: 1px solid #0f270fbe;
     height: 1px;
     width: 100%;
-    margin: 3em auto;
+    margin: 2em auto;
 }
 
 .carrossel {
@@ -231,10 +231,7 @@ main h3 {
     align-items: center;
     gap: 2em;
     background-color: #859479;
-}
-
-#texto-mapa {
-    margin-bottom: 2em;
+    margin-top: 2em;
 }
 
 .informacoes {

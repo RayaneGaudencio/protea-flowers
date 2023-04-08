@@ -24,6 +24,7 @@ html, body {
 .buttons a{
     text-decoration: none;
 }
+
 .buttons:hover {
     color: #0F270F;
     border-bottom: 1px solid black;
@@ -201,9 +202,6 @@ main span {
 .titulo-bloco-info{
     font-size: 1.5em;
 }
-
-
-
 
 footer{
     background-color: #0F270F;

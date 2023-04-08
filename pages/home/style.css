@@ -243,8 +243,8 @@ main h3 {
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    padding: 2em;
-    margin: 2em 0;
+    /* padding: 2em; */
+    margin: 3em 0;
 }
 
 .informacoes-left {

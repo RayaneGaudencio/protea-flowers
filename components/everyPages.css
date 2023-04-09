@@ -124,6 +124,10 @@ hr {
     color: #0F270F;
 }
 
+.breadcrumbs span {
+    color: #859479;
+}
+
 .info-breadcrumbs {
     padding-left: 2em;
     padding-top: 1em;

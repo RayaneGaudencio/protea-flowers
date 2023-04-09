@@ -34,11 +34,6 @@ main {
     border-bottom: 1px solid black;
 }
 
-.buttons a:hover {
-    color: #0F270F;
-    border-bottom: 1px solid black;
-}
-
 header {
     background-color: #859479;
     padding: 2em;

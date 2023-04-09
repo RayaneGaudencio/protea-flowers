@@ -49,7 +49,6 @@ header {
 .botoes-vendedor, .botoes-entrar-cadastrar {
     display: flex;
     gap: 2em;
-    padding: 0.5em;
 }
 
 .barra-pesquisa {

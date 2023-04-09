@@ -1,0 +1,177 @@
+.box-migalhas{
+    margin: 2em;
+}
+
+.box-migalhas h3, .box-migalhas h1, .box-produtos-carrinho h3{
+    color: #0F270F;
+    font-weight: normal;
+}
+
+.box-migalhas h1{
+    font-family: 'Marcellus SC', serif;
+    font-size: 40px;
+}
+
+.box-produtos-carrinho{
+    margin: 2em;
+}
+
+.box-descricao span{
+    color: #0F270F;
+}
+
+.box-colunas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1.5em;
+}
+
+.box-img{
+    background-color: #D9D9D9;
+    padding: 1em;
+}
+
+.box-descricao h3, .box-descricao span{
+    margin: 1em 0;
+}
+
+.box-descricao span{
+    font-size: 13px;
+}
+
+.centro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.linha{
+    border-right: 1px dashed black;
+    padding-right: 1em;
+    height: 200px;
+}
+
+.centro img{
+    width: 40px;
+}
+
+.box-inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-frete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    background-color: #859479;
+    width: 300px;
+    height: 70px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.5em;
+    border: none;
+}
+
+.txt {
+    width: 100%;
+    height: 70px;
+    border-radius: 15px;
+    color: black;
+}
+
+.box-frete span{
+    color: #0F270F;
+    margin-right: 1em;
+}
+
+.maior {
+    width: 500px;
+}
+
+.total-compra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.total-compra button{
+    width: 200px;
+    height: 40px;
+    background-color: #CF8368;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.total-compra p{
+    color: #0F270F;
+    padding-right: 1em;
+}
+
+#botao{
+    width: 350px;
+}
+
+
+
+
+
+
+footer{
+    background-color: #0F270F;
+    font-size: 23px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+footer h2{
+    font-family: 'Marcellus SC', serif;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+.box-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-left-footer, .box-rigth-footer{
+    font-size: 20px;
+}
+
+.box-rigth-footer img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.box-rigth-footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2% 0;
+}
+
+.space-list{
+    margin-top: 22%;
+}

@@ -1,0 +1,369 @@
+.box-central{
+    display: flex;
+    flex-direction: row;
+}
+
+.barra-lateral{
+    width: 27%;
+}
+
+.barra-lateral span{
+    color: black;
+  
+
+}
+.box-caminho{
+    margin-left: 2em;
+    border-right: 1px solid #0F270F;
+    width: 87%;
+}
+.barra-lateral h3{
+    color: #0F270F;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.box-filtro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1em 2em;
+}
+.box-filtro h3{
+    color: #0F270F;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.box-filtro img{
+    width: 34px;
+}
+
+.box-categorias{
+    border-bottom: 1px solid #0F270F;
+    border-right: 1px solid #0F270F;
+    padding: 1em 0.5em 0em 2em;
+}
+
+.box-opcoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.box-categorias ul li{
+    color: black;
+    list-style: none;
+    padding-bottom: 0.5%;
+    cursor: pointer;
+    font-size: 20px;
+}
+.box-categorias ul li:hover{
+    color: #9B2D25;
+}
+
+.avaliacao{
+    width: 80px;
+}
+
+.box-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    width: 90%;
+    margin-left: 2.7em;
+    margin-top: 1em;
+}
+
+.box-produtos{
+    display: flex;
+    flex-direction: column;
+    /*padding-left: 2em;*/
+    width: 73%;
+    overflow-y: scroll;
+    height: 2105px;
+ 
+}
+
+.box-central-catalogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box-produtos span, .box-produtos p, .box-produtos h4{
+    color: #0F270F;
+
+}
+.box-produtos h3, .box-produtos h4{
+    font-weight: normal;
+
+}
+
+.box-titulo h3{
+    font-family: 'Marcellus SC', serif;;
+    font-size: 35px;
+    color: #0F270F;
+    padding-left: 1.7em;
+    margin-bottom: 0.5em;
+}
+
+.box-titulo{
+    margin-top: 1em;
+}
+
+.box-demonstracao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5em;
+    width: 33%;
+}
+
+.box-info-produtos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-info-produtos{
+    width: 90%;
+}
+
+.text-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixa-texto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 0.8em;
+    background-color: #859479;
+    margin-top: 1em;
+}
+
+.caixa-texto h4{
+    color: #FFFBFB;
+}
+
+.caixa-texto span{
+    cursor: pointer;
+}
+
+.caixa-texto span:hover{
+    color: #FFFBFB;
+}
+
+.text-info span, .preco-qtd span{
+    font-size: 14px;
+    margin: 1em 0;
+}
+p{
+    margin-bottom: 2em;
+    margin-top: 0;
+    font-size: 10px;
+}
+.preco-qtd span{
+    color: white;
+}
+
+.preco-qtd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.box-preco-qtd{
+    isplay: flex;
+    align-items: center;
+    background-color: #9B2D25;
+    width: 48%;
+    text-align: center;
+    border-radius: 20px;
+}
+.number{
+    width: 30px;
+    height: 14px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.box-button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: #9B2D25;
+    text-align: center;
+    width: 80%;
+    border-radius: 20px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    color: black;
+}
+.botton-lateral{
+    background-color: #CF8368;
+    text-align: center;
+    width: 100%;
+    border-radius: 20px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    margin: 1em 0;
+}
+/*Estlos dos modais de login*/
+
+.modal{
+    width: 55%;
+    height: auto;
+    margin-top: 6%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.legenda{
+    padding: 2%;
+    visibility: v;
+}
+
+.box-modal{
+    width: 100%;
+    text-align: center;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+
+.box-modal h3{
+    font-weight: normal;
+    color: black;
+    margin:  0;
+}
+
+.text-modal{
+    color: #859479;
+    margin-bottom: 2%;
+}
+
+.img-fechar{
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin: 10px 10px 0 10px;
+    cursor: pointer;
+}
+
+.clear{
+    clear: both;
+}
+
+.img-google{
+    width: 253px;
+    margin: 2% 0;
+    cursor: pointer;
+}
+
+.input-login{
+    width: 384px;
+    height: 35px;
+    margin-bottom: 1%;
+    border-radius: 6px;
+    padding-left: 2%;
+    border: none;
+    color: black;
+}
+
+.link-ajuda{
+    width: 75%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.text-red{
+    color: #9B2D25;
+    cursor: pointer;
+}
+
+.text-gray{
+    color: gray;
+    cursor: pointer;
+}
+
+.box-modal input[type='submit']{
+    width: 119px;
+    height: 35px;
+    background-color: #859479;
+    border: none;
+    cursor: pointer;
+    border-radius: 17px;
+    margin: 2% 0;
+}
+
+/*Fim dos estlos dos modais de login*/
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #0F270F;
+    font-size: 23px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+footer h2{
+    font-family: 'Marcellus SC', serif;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+.box-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-left-footer, .box-rigth-footer{
+    font-size: 20px;
+}
+
+.box-rigth-footer img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.box-rigth-footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2% 0;
+}
+
+.space-list{
+    margin-top: 22%;
+}

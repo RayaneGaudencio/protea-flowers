@@ -127,3 +127,17 @@ hr {
 .breadcrumbs {
     color: #0F270F;
 }
+
+.info-breadcrumbs {
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+.titulo-font-marcellus {
+    font-family: 'Marcellus SC', serif;
+    margin-bottom: 50px;
+    color: #0F270F;
+    border-left: 5px solid #859479;
+    padding-left: 10px;
+    margin-top: 15px;
+}

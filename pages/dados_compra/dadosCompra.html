@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protea Flowers | Produtos</title>
+    <link rel="stylesheet" href="estiloDadosCompra.css">
+    <link rel="stylesheet" href="../../components/everyPages.css">
+  <!-- Importação dos arquivos CSS do Slick carousel -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+  <!-- Importação do jQuery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </script>
+</head>
+<body>
+	<header id="box-principal">
+        <div class="header-top">
+            <nav class="botoes-vendedor">
+                <span id="Central-vendedor" class="buttons">Central do Vendedor</span>
+                <span class="buttons"><a href="../cadastro_vendedor/cadastroVendedor.html">Torne-se Vendedor</a></span>
+            </nav>
+            <div class="barra-pesquisa">
+                <img src="images/icon-search.png" alt="">
+                <input 
+                type="search" 
+                name="pesquisar" 
+                id="input-pesquisa"
+                placeholder="Buscar..." onclick="this.placeholder=''">
+            </div>
+            <nav class="botoes-entrar-cadastrar">
+                <span id="entrar" class="buttons">Entrar</span>
+                <span class="buttons"><a href="../cadastro_cliente/cadastroCliente.html">Cadastre-se</a></span>
+            </nav>
+        </div>
+        <div class="header-bottom">
+            <a href="../home/index.html">
+                <img id="logo" src="images/logo.png" alt="Logo da Protea Flowers">
+            </a>
+            <nav>
+                <span class="buttons"><a href="../home/index.html">HOME</a></span>
+                <span class="buttons" style="color: #0F270F"><a href="../produtos/produtos.html">PRODUTOS</a></span>
+                <span class="buttons">CATALOGOS</span>
+                <span class="buttons"><a href="../nossa_historia/nossaHistoria.html">NOSSA HISTÓRIA</a></span>
+                <span class="buttons"><a href="../contato/contato.html">CONTATO</a></span>
+            </nav>
+            <div>
+                <img class="icon-header" src="images/🦆 icon _person_.png" alt="Ícone de pessoa">
+                <img class="icon-header" src="images/🦆 icon _bell_.png" alt="ícone de sino">
+                <img class="icon-header" src="images/🦆 icon _cart_.png" alt="Ícone de carrinho">
+            </div>
+        </div>
+        <hr>
+        
+    </header>
+    <main>
+    	<section class="box-principal">
+    		<div class="box-migalhas">
+    			<h3>Home | Carrinho de Compras |  Dados da compra</h3>
+    			<h1>DADOS DA COMPRA</h1>
+    		</div>
+            <div class="box-centro-dados">
+                <br>
+                <h3 class="titulo">Escolha o método de pagamento:</h3>
+                <div class="pagamentos">
+                    <div class="box-exemplos">
+                        <input type="checkbox" name="">
+                        <label>Cartão de crédito</label>
+                     </div>
+                    <div class="box-exemplos">
+                        <input type="checkbox" name="">
+                        <label>Boleto</label>
+                    </div>
+                    <div class="box-exemplos">
+                        <input type="checkbox" name="">
+                        <label>Pix</label>
+                    </div>
+                </div>
+                <div class="box-dados">
+                    <form>
+                        <div class="form-centro">
+                            <div class="form-line">
+                                <label>Cartão de crédito</label>
+                                <input type="text" name="">
+                            </div>
+                            <div class="form-line">
+                                <label>Código de segurança</label>
+                                <input type="text" name="">
+                            </div>
+                        </div>
+                        <div class="form-centro">
+                            <div class="form-line">
+                                <label>Nome do cartão</label>
+                                <input type="text" name="">
+                            </div>
+                            <div class="form-line">
+                                <label>Validade</label>
+                                <div class="row">
+                                     <input class="input-100" type="number" name="" placeholder="Mês">
+                                    <input class="input-50" type="number" name="" placeholder="Ano">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-centro">
+                            <div class="form-line">
+                                <label>Número de parcelas</label>
+                                <input type="number" name="">
+                            </div>
+                        </div>
+                    </form>
+                    <div class="box-endereco">
+                        <h3>Confirmar endereço</h3>
+                        <div class="endereco">
+                            <span>Rua do Bobo, nº 10 - Recife, PE 00000‑000</span>
+                            <button>Alterar endereço</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <input class="sobre-submit" type="submit" name="" value="Finalizar compra">
+                <div class="clear"></div><!-- Limpeza da fltuação -->
+            </div>
+        </section>
+
+        <section class="modal cliente">
+            <span class="legenda">Home | Carrinho de Compras | Dados da compra</span>
+            <div class="box-modal">
+                <img class="img-fechar" src="images/fechar.png">
+                <div class="clear"></div><!-- Limpeza da flutuação -->
+                <div class="teste">
+                    <h3>COMPRA CONFIRMADA</h3>
+                    <h3>COM SUCESSO!</h3>
+                    <br>
+                    <span>O seu pagamento está aprovado, e em </span>
+                    <br>
+                    <span>breve você receberá o seu pedido.</span>
+                </div>
+                 <input type="submit" name="" value="Comprar novamente">
+            </div>
+
+        </section>
+
+    </main>
+    <br>
+    <footer>
+            <h2>Entre em contato para mais informações</h2>
+            <div class="box-footer">
+                <div class="box-left-footer">
+                    <ul>
+                        <li>Rua das Colhetas, 258-A, Apipucos</li>
+                        <li>Recife, PE - Brasil</li>
+                        <li>CEP: 10254-330</li>
+                        <br>
+                        <br>
+                        <li>P&F DECORAÇÃO E AMBIENTAÇÃO</li>
+                        <li>LTDA 08.591.212/0004-07</li>
+                    </ul>
+                </div>
+
+                <div class="logo-footer">
+                     <img src="images/logo.png">
+                </div>
+                
+                <div class="box-rigth-footer">
+                    <span>Encontre-nos nas redes sociais</span>
+                    <ul>
+                        <li>
+                            <img src="images/facebook.png">
+                        </li>
+                        <li>
+                            <img src="images/instagram.png">
+                        </li>
+                        <li>
+                            <img src="images/whatsapp.png">
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <img src="images/logotipo-do-pinterest.png">
+                        </li>
+                        <li>
+                            <img src="images/twitter.png">
+                        </li>
+                        <li>
+                            <img src="images/youtube.png">
+                        </li>
+                    </ul>
+                    <span>contato@proteaflowers.com.br</span>
+                </div>
+            </div>
+            
+        </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,247 @@
+.box-migalhas{
+    margin: 2em;
+}
+
+.box-migalhas h1{
+    font-family: 'Marcellus SC', serif;
+    font-size: 30px;
+    border-right: 1px solid #859479;
+    color: #0F270F;
+}
+.box-migalhas h3 {
+    color: #0F270F;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.box-centro-dados{
+    width: 70%;
+    background-color: #FFFAF7;
+    margin: 0 auto;
+}
+
+.titulo{
+    color: #859479;
+    text-align: center;
+    font-weight: normal;
+}
+
+.pagamentos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pagamentos label{
+    color: black;
+    font-weight: bold;
+}
+
+.box-exemplos{
+    margin: 1em 0.5em;
+}
+
+.box-dados{
+    width: 80%;
+    margin: 0 auto; 
+    
+}
+
+.modal{
+    width: 55%;
+    height: auto;
+    margin-top: 4%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.modal span{
+    color: #859479;
+}
+
+.legenda{
+    color: white !important;
+}
+
+.teste{
+    padding: 0 7em;
+}
+.box-modal{
+    width: 100%;
+    text-align: center;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+
+.box-modal h3{
+    font-weight: normal;
+    color: black;
+    margin:  0;
+}
+
+.img-fechar{
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin: 10px 10px 0 10px;
+    cursor: pointer;
+}
+
+
+
+.clear{
+    clear: both;
+}
+
+.box-modal input[type='submit']{
+    width: 200px;
+    height: 35px;
+    background-color: #CF8368;
+    border: none;
+    cursor: pointer;
+    border-radius: 17px;
+    margin: 4em 0;
+}
+
+.box-modal input[type='submit']:hover{
+    color: black;
+}
+
+/*Fim dos estlos dos modais de login*/
+
+form{
+    border: 1px solid gray;
+}
+
+.form-centro label{
+    color: black;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.form-centro{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-line{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em 1em;
+}
+.row{
+    display: flex;
+    flex-direction: row; 
+}
+
+.form-line input{
+    width: 240px;
+    height: 25px;
+    color: black;
+    padding-left: 1em;
+}
+
+.form-line .input-100{
+    width: 160px;
+    margin-right: 2em;
+}
+
+.form-line .input-50{
+    width: 50px;
+}
+
+.box-endereco h3, .box-endereco span{
+    color: black;
+    
+    font-size: 16px;
+}
+
+.box-endereco{
+    margin-top: 1.5em;
+}
+
+.endereco{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box-endereco span{
+    width: 30%;
+    margin-top: 0.5em;
+}
+
+.box-endereco button{
+    width: 20%;
+    height: 30px;
+    background-color: #9B2D25;
+    border: none;
+    cursor: pointer;
+    margin-left: 1em;
+}
+
+.sobre-submit{
+    background-color: #0F270F;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 2%;
+    float: right;
+    border-top-left-radius: 50px;
+    
+}
+.clear{
+    clear: both;
+}
+
+
+
+footer{
+    background-color: #0F270F;
+    font-size: 23px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+footer h2{
+    font-family: 'Marcellus SC', serif;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+.box-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-left-footer, .box-rigth-footer{
+    font-size: 20px;
+}
+
+.box-rigth-footer img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.box-rigth-footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2% 0;
+}
+
+.space-list{
+    margin-top: 22%;
+}

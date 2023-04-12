@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protea Flowers | Compra Produto</title>
+    
+    <link rel="stylesheet" href="../../components/everyPages.css">
+    <link rel="stylesheet" href="compra.css">
+
+  <!-- Importação do jQuery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </script>
+</head>
+<body>
+	<header id="box-principal">
+        <div class="header-top">
+            <nav class="botoes-vendedor">
+                <span id="Central-vendedor" class="buttons">Central do Vendedor</span>
+                <span class="buttons"><a href="../cadastro_vendedor/cadastroVendedor.html">Torne-se Vendedor</a></span>
+            </nav>
+            <div class="barra-pesquisa">
+                <img src="images/icon-search.png" alt="">
+                <input 
+                type="search" 
+                name="pesquisar" 
+                id="input-pesquisa"
+                placeholder="Buscar..." onclick="this.placeholder=''">
+            </div>
+            <nav class="botoes-entrar-cadastrar">
+                <span id="entrar" class="buttons">Entrar</span>
+                <span class="buttons"><a href="../cadastro_cliente/cadastroCliente.html">Cadastre-se</a></span>
+            </nav>
+        </div>
+        <div class="header-bottom">
+            <a href="../home/index.html">
+                <img id="logo" src="images/logo.png" alt="Logo da Protea Flowers">
+            </a>
+            <nav>
+                <span class="buttons"><a href="../home/index.html">HOME</a></span>
+                <span class="buttons" style="color: #0F270F"><a href="../produtos/produtos.html">PRODUTOS</a></span>
+                <span class="buttons"><a href="../catalogos/catalogos.html">CATALOGOS</a></span>
+                <span class="buttons"><a href="../nossa_historia/nossaHistoria.html">NOSSA HISTÓRIA</a></span>
+                <span class="buttons"><a href="../contato/contato.html">CONTATO</a></span>
+            </nav>
+            <div>
+                <img class="icon-header" src="images/🦆 icon _person_.png" alt="Ícone de pessoa">
+                <img class="icon-header" src="images/🦆 icon _bell_.png" alt="ícone de sino">
+                <img class="icon-header" src="images/🦆 icon _cart_.png" alt="Ícone de carrinho">
+            </div>
+        </div>
+        <hr>
+    </header>
+    
+    <main>
+        <br>
+                <div class="box-caminho">
+                    <span>
+                        Home | Produto | Flor Selecionada
+                    </span>
+                </div>
+        <section class="principal">
+            <div class="principal-box">
+                <div class="box primeiro">
+                    <img src="images/demostracao.png">
+                </div>
+                <div class="box texto">
+                    <br>
+                    <h3>Flor de Bananeira</h3>
+                    <p id="descricao">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt saepe, cumque in dolore nihil soluta reprehenderit amet deleniti aliquid ducimus, fuga ea rem non nulla expedita, laudantium numquam unde possimus?
+                    </p>
+                    <h4>R$ 170,00</h4>
+                    <p id="parcelamento">5x de R$ 34,00 sem juros</p>
+                    <hr>
+                    <button class="buttom cima" style="background-color: #9B2D25;">ADICIONAR AO CARRINHO</button><br>
+                    <button class="buttom cima" style="background-color: #D1615F;">COMPRAR AGORA</button>
+                    <p style="color: #1EC91E;">Em estoque</p>
+                    <p>*Frete Grátis na Primeira compra</p><br>
+                </div>
+            </div>
+            <div class="principal-box">
+                <div class="box info">
+                    <br>
+                    <h3>Mais Informações</h3>
+                    <div class="box-info">
+                        <ul>
+                            <strong><li>Tipo</li>
+                            <li>Cor</li>
+                            <li>Tamanho</li>
+                            <li>Tempo de Nascimento</li>
+                            <li>Categoria</li>
+                            <li>Estação</li></strong>
+                        </ul>
+    
+                        <ul>
+                            <li>Banana</li>
+                            <li>Vermelho-amarelo</li>
+                            <li>40-60 cm</li>
+                            <li>Abril</li>
+                            <li>Flor de Fruta</li>
+                            <li>V</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box texto">
+                    <h3 id="titulo">Flores parecidas</h3>
+                    <div class="card">
+                        <div class="box-card">
+                            <img src="images/demostracao.png">
+                            <h3>BROMÉLIA ROSA</h3>
+                            <p class="preco">R$ 170,00</p>
+                            <p class="parcela">5x de R$ 34,00 sem juros</p>
+                            <button class="buttom baixo" style="background-color: #9B2D25;">ADICIONAR AO CARRINHO</button>
+                        </div>
+                        <div class="box-card">
+                            <img src="images/demostracao.png">
+                            <h3>BROMÉLIA ROSA</h3>
+                            <p class="preco">R$ 170,00</p>
+                            <p class="parcela">5x de R$ 34,00 sem juros</p>
+                            <button class="buttom baixo" style="background-color: #9B2D25;">ADICIONAR AO CARRINHO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="comentarios">
+                <h3>Avaliações</h3>
+                <textarea placeholder="Este iten não tem avaliações"></textarea><br>
+                <button class="buttom baixo" style="background-color: #9B2D25; width: 30%;">Enviar Avaliação</button>
+            </div>
+        </section>
+
+    </main>
+
+    	<footer>
+            <h2>Entre em contato para mais informações</h2>
+            <div class="box-footer">
+                <div class="box-left-footer">
+                    <ul>
+                        <li>Rua das Colhetas, 258-A, Apipucos</li>
+                        <li>Recife, PE - Brasil</li>
+                        <li>CEP: 10254-330</li>
+                        <br>
+                        <br>
+                        <li>P&F DECORAÇÃO E AMBIENTAÇÃO</li>
+                        <li>LTDA 08.591.212/0004-07</li>
+                    </ul>
+                </div>
+
+                <div class="logo-footer">
+                     <img src="images/logo.png">
+                </div>
+                
+                <div class="box-rigth-footer">
+                    <span>Encontre-nos nas redes sociais</span>
+                    <ul>
+                        <li>
+                            <img src="images/facebook.png">
+                        </li>
+                        <li>
+                            <img src="images/instagram.png">
+                        </li>
+                        <li>
+                            <img src="images/whatsapp.png">
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <img src="images/logotipo-do-pinterest.png">
+                        </li>
+                        <li>
+                            <img src="images/twitter.png">
+                        </li>
+                        <li>
+                            <img src="images/youtube.png">
+                        </li>
+                    </ul>
+                    <span>contato@proteaflowers.com.br</span>
+                </div>
+            </div>
+            
+        </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

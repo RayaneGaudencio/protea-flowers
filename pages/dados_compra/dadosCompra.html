@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protea Flowers | Produtos</title>
-    <link rel="stylesheet" href="estiloCarrinhoCompras.css">
+    <link rel="stylesheet" href="estiloDadosCompra.css">
     <link rel="stylesheet" href="../../components/everyPages.css">
   <!-- Importação dos arquivos CSS do Slick carousel -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
@@ -42,7 +42,7 @@
             <nav>
                 <span class="buttons"><a href="../home/index.html">HOME</a></span>
                 <span class="buttons" style="color: #0F270F"><a href="../produtos/produtos.html">PRODUTOS</a></span>
-                <span class="buttons"><a href="../catalogos/catalogos.html">CATALOGOS</a></span>
+                <span class="buttons">CATALOGOS</span>
                 <span class="buttons"><a href="../nossa_historia/nossaHistoria.html">NOSSA HISTÓRIA</a></span>
                 <span class="buttons"><a href="../contato/contato.html">CONTATO</a></span>
             </nav>
@@ -53,104 +53,97 @@
             </div>
         </div>
         <hr>
-        <section class="carrossel">
-            <img src="images/imagem1-carrossel.png" alt="">
-            <img src="images/imagem1-carrossel.png" alt="">
-            <img src="images/imagem1-carrossel.png" alt="">
-        </section>
+        
     </header>
     <main>
     	<section class="box-principal">
     		<div class="box-migalhas">
-    			<h3>Home | Carrinho de Compras</h3>
-    			<h1>CARRINHO DE COMPRAS</h1>
+    			<h3>Home | Carrinho de Compras |  Dados da compra</h3>
+    			<h1>DADOS DA COMPRA</h1>
     		</div>
-    		<div class="box-produtos-carrinho">
-    			<h3>PRODUTOS SELECIONADOS:</h3>
-    			<div class="box-colunas">
-    				<div class="box-img">
-    					<img src="images/demostracao.png">
-    				</div>
-    				<div class="box-descricao linha">
-    					<h3>BROMÉLIA ROSA</h3>
-    					<span>Código: ADERLO88</span> <br> <br>
-    					<span>Disponível em estoque</span>
-    				</div>
-    				<div class="box-descricao centro">
-    					<h3>PREÇO UNITÁRIO</h3>
-    					<span>R$ 170,00</span>
-    				</div>
-    				<div class="box-descricao centro">
-    					<h3>QUANTIDADE</h3>
-    					<span>+ 1 -</span>
-    				</div>
-    				<div class="box-descricao centro">
-    					<h3>SUBTOTAL</h3>
-    					<span>R$ 170,00</span>
-    				</div>
-    				<div class="box-descricao centro">
-    					<h3>EXCLUIR</h3>
-    					<img src="images/lata-de-lixo.png">
-    				</div>
-    			</div>
+            <div class="box-centro-dados">
+                <br>
+                <h3 class="titulo">Escolha o método de pagamento:</h3>
+                <div class="pagamentos">
+                    <div class="box-exemplos">
+                        <input type="checkbox" name="">
+                        <label>Cartão de crédito</label>
+                     </div>
+                    <div class="box-exemplos">
+                        <input type="checkbox" name="">
+                        <label>Boleto</label>
+                    </div>
+                    <div class="box-exemplos">
+                        <input type="checkbox" name="">
+                        <label>Pix</label>
+                    </div>
+                </div>
+                <div class="box-dados">
+                    <form>
+                        <div class="form-centro">
+                            <div class="form-line">
+                                <label>Cartão de crédito</label>
+                                <input type="text" name="">
+                            </div>
+                            <div class="form-line">
+                                <label>Código de segurança</label>
+                                <input type="text" name="">
+                            </div>
+                        </div>
+                        <div class="form-centro">
+                            <div class="form-line">
+                                <label>Nome do cartão</label>
+                                <input type="text" name="">
+                            </div>
+                            <div class="form-line">
+                                <label>Validade</label>
+                                <div class="row">
+                                     <input class="input-100" type="number" name="" placeholder="Mês">
+                                    <input class="input-50" type="number" name="" placeholder="Ano">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-centro">
+                            <div class="form-line">
+                                <label>Número de parcelas</label>
+                                <input type="number" name="">
+                            </div>
+                        </div>
+                    </form>
+                    <div class="box-endereco">
+                        <h3>Confirmar endereço</h3>
+                        <div class="endereco">
+                            <span>Rua do Bobo, nº 10 - Recife, PE 00000‑000</span>
+                            <button>Alterar endereço</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <input class="sobre-submit" type="submit" name="" value="Finalizar compra">
+                <div class="clear"></div><!-- Limpeza da fltuação -->
+            </div>
+        </section>
 
+        <section class="modal cliente">
+            <span class="legenda">Home | Carrinho de Compras | Dados da compra</span>
+            <div class="box-modal">
+                <img class="img-fechar" src="images/fechar.png">
+                <div class="clear"></div><!-- Limpeza da flutuação -->
+                <div class="teste">
+                    <h3>COMPRA CONFIRMADA</h3>
+                    <h3>COM SUCESSO!</h3>
+                    <br>
+                    <span>O seu pagamento está aprovado, e em </span>
+                    <br>
+                    <span>breve você receberá o seu pedido.</span>
+                </div>
+                 <input type="submit" name="" value="Comprar novamente">
+            </div>
 
+        </section>
 
-    			<div class="box-colunas">
-    				<div class="box-img">
-    					<img src="images/demostracao.png">
-    				</div>
-    				<div class="box-descricao linha">
-    					<h3>BROMÉLIA ROSA</h3>
-    					<span>Código: ADERLO88</span> <br> <br>
-    					<span>Disponível em estoque</span>
-    				</div>
-    				<div class="box-descricao centro">
-    					<h3>PREÇO UNITÁRIO</h3>
-    					<span>R$ 170,00</span>
-    				</div>
-    				<div class="box-descricao centro">
-    					<h3>QUANTIDADE</h3>
-    					<span>+ 1 -</span>
-    				</div>
-    				<div class="box-descricao centro">
-    					<h3>SUBTOTAL</h3>
-    					<span>R$ 170,00</span>
-    				</div>
-    				<div class="box-descricao centro">
-    					<h3>EXCLUIR</h3>
-    					<img src="images/lata-de-lixo.png">
-    				</div>
-    			</div>
-    			<div class="box-inputs">
-    				<div class="teste">
-    						<div class="box-frete">
-    							<span>CALCULAR FRETE</span>
-	    					<div class="input">
-	    						<p>CEP</p>
-	    						<input type="text" class="txt" name="">
-	    					</div>
-	    				</div>
-	    				<div class="box-frete">
-	    					<span>CUPOM DE DESCONTO</span>
-	    					<div class="input maior">
-	    						<p>USAR CUPOM</p>
-	    						<input type="text" class="txt" name="">
-	    					</div>
-	    				</div>
-    			</div>
-    			<div class="total">
-    				<div class="total-compra">
-    					<p>TOTAL</p>
-    					<button>R$ 170,00</button>
-    				</div>
-    				<div class="total-compra">
-    					<button id="botao">CONTINUAR COMPRA</button>
-    				</div>
-    			</div>
-    		</div>
-    	</section>
     </main>
+    <br>
     <footer>
             <h2>Entre em contato para mais informações</h2>
             <div class="box-footer">

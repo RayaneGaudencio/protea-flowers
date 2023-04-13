@@ -222,3 +222,99 @@ footer ul li{
 .space-list{
     margin-top: 22%;
 }
+
+
+/*Estlos dos modais de login*/
+
+.modal{
+    width: 55%;
+    height: auto;
+    margin-top: 6%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.legenda{
+    padding: 2%;
+    visibility: v;
+}
+
+.box-modal{
+    width: 100%;
+    text-align: center;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+
+.box-modal h3{
+    font-weight: normal;
+    color: black;
+    margin:  0;
+}
+
+.text-modal{
+    color: #859479;
+    margin-bottom: 2%;
+}
+
+.img-fechar{
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin: 10px 10px 0 10px;
+    cursor: pointer;
+}
+
+.clear{
+    clear: both;
+}
+
+.img-google{
+    width: 253px;
+    margin: 2% 0;
+    cursor: pointer;
+}
+
+.input-login{
+    width: 384px;
+    height: 35px;
+    margin-bottom: 1%;
+    border-radius: 6px;
+    padding-left: 2%;
+    border: none;
+    color: black;
+}
+
+.link-ajuda{
+    width: 75%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.text-red{
+    color: #9B2D25;
+    cursor: pointer;
+}
+
+.text-gray{
+    color: gray;
+    cursor: pointer;
+}
+
+.box-modal input[type='submit']{
+    width: 119px;
+    height: 35px;
+    background-color: #859479;
+    border: none;
+    cursor: pointer;
+    border-radius: 17px;
+    margin: 2% 0;
+}
+
+/*Fim dos estlos dos modais de login*/

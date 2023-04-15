@@ -18,6 +18,32 @@ html, body {
     font-weight: 400;
 }
 
+.botoes-vendedor span, .botoes-vendedor span a, .botoes-entrar-cadastrar span, .botoes-entrar-cadastrar span a{
+    color:#0F270F;
+}
+
+.botoes-vendedor span:hover {
+    color:#efefee;
+}
+.botoes-vendedor span a:hover {
+    color:#efefee;
+}
+
+.botoes-entrar-cadastrar span:hover {
+    color:#efefee;
+}
+.botoes-entrar-cadastrar span a:hover {
+    color:#efefee;
+}
+
+a {
+    text-decoration: none;
+}
+
+span:hover {
+    color: #0F270F;
+}
+
 main {
     font-size: 2.3em;
 }
@@ -30,10 +56,8 @@ main {
     text-decoration: none;
 }
 
-.buttons:hover {
+.buttons a:hover {
     color: #0F270F;
-    border-bottom: 1px solid black;
-
 }
 
 header {

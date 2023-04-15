@@ -10,10 +10,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }else{
             $(".cliente-modal").fadeIn();
             $(".cliente").fadeIn();
-
         }
         $('body').css("overflow", "hidden");
-        
+       
+
     });
 
     //Fecha o modal
@@ -21,9 +21,14 @@ document.addEventListener('DOMContentLoaded', function() {
     $(".img-fechar").click(function(){
         $(".fundo-modal").fadeOut();
         $(".modal").fadeOut();
-
         $('body').css("overflow", "visible");   
-        
+       
+    });
+
+    //Abrir menu mobile
+
+    $(".menu-img").click(function(){
+        $(".box-menu-mobile").toggle();
     });
 
 });

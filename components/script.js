@@ -5,23 +5,30 @@ document.addEventListener('DOMContentLoaded', function() {
 
     $(".entrar, .Central-vendedor").click(function(){
         if ($(this).attr('class') == "Central-vendedor") {
+
             $(".vendedor").fadeIn();
         }else{
+            $(".fundo-modal").fadeIn();
             $(".cliente").fadeIn();
-        }
 
-        $('#box-principal').css("background-color", "#0F270F");
-        $('.buttons a').css("color", "gray");
-        $('.buttons').css("color", "gray");
-        $('#input-pesquisa').css("background-color", "gray");
-        $('.icon-header').css("display", "none");
-        $('#logo').css("display", "none");
+        }
+        $('body').css("overflow", "hidden");
+        // $('#box-principal').css("background-color", "#0F270F");
+        // $('.buttons a').css("color", "gray");
+        // $('.buttons').css("color", "gray");
+        // $('#input-pesquisa').css("background-color", "gray");
+        // $('.icon-header').css("display", "none");
+        // $('#logo').css("display", "none");
+
     });
 
     //Fecha o modal
 
     $(".img-fechar").click(function(){
-        $(".modal").fadeOut();   
+        $(".fundo-modal").fadeOut();
+        $(".modal").fadeOut();
+
+        $('body').css("overflow", "visible");   
         $('#box-principal').css("background-color", "#859479"); 
         $('.buttons a').css("color", "#FFFFFF");
         $('.buttons').css("color", "#FFFFFF");

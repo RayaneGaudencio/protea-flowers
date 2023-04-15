@@ -16,14 +16,10 @@ main {
 
 main h3 {
     text-align: center;
-    display: inline;
 }
 
 .text-capslock {
     color: #0F270F;
-    margin: 40rem;
-    border-left: 0.12em solid #859479;
-    padding-left: 0.2em;
 }
 
 .circulos {
@@ -80,30 +76,8 @@ main h3 {
 }
 
 .card h3{
-    font-size: 15px;
-    position: absolute;
-    padding: 3.3%;
-    display: none;
-    font-weight: normal;
-}
-
-.card{
-    height: 112px;
-    background-color: black;
-    cursor: pointer;
-}
-
-.card:hover{
-    opacity: 0.9;
-    box-shadow: rgba(0, 0, 0, 0.50);
-}
-
-.card:hover.card h3{
-    display: block;
-}
-
-.card:hover.card img{
-    visibility: hidden;
+    font-size: 16px;
+    color: black;
 }
 
 .mapa {
@@ -114,6 +88,9 @@ main h3 {
     background-color: #859479;
     margin-top: 2em;
 }
+.mapa img{
+        width: 100%;
+    }
 
 .informacoes {
     /*display: grid;
@@ -166,8 +143,7 @@ main h3 {
 }
 
 .images-footer div img {
-    width: 11em;
-    height: 10em;
+    width: 100%;
     cursor: pointer;
 }
 
@@ -185,50 +161,138 @@ main h3 {
 
 
 
+@media screen and (min-width: 901px) and (max-width: 1200px){
+    .informacoes {
+        font-size: 16px;
+    }
+    .informacoes-left{
+        width: 85%;
+    }
 
-footer{
-    background-color: #0F270F;
-    font-size: 23px;
-    padding: 2%;
-    margin-top: 3%;
+    .informacoes-right {
+        width: 100%;
+    }
+
+    .informacoes-left li, .informacoes-right li {
+        margin-bottom: 1em;
+    }
+
+    .vertical-line {
+        width: 350px;
+        margin-top: 11%;
+    }
 }
 
-footer h2{
-    font-family: 'Marcellus SC', serif;
-    font-weight: normal;
-    text-align: center;
-    padding-bottom: 5%;
+@media screen and (min-width: 821px) and (max-width: 900px){
+    .informacoes {
+        font-size: 12px;
+    }
+
+    .informacoes-left{
+        width: 85%;
+    }
+
+    .informacoes-right {
+        width: 100%;
+    }
+
+    .informacoes-left li, .informacoes-right li {
+        margin-bottom: 1em;
+    }
+
+    .vertical-line {
+        margin-top: 11%;
+    }
+}
+@media screen and (max-width: 820px){
+    .text-capslock {
+        font-size: 23px;
+    }
+
+    .circulos {
+        gap: 1em;
+    }
+
+    .circulos span {
+        padding: 0em;
+    }
+
+    .produtos-catalogos {
+        width: 90%;
+        gap: 0.5em;
+        margin: 2em auto;
+    }
+
+    .produtos-catalogos img {
+        width: 100%;
+    }
+
+    .informacoes {
+        font-size: 12px;
+    }
+
+    .informacoes-left{
+        width: 85%;
+    }
+
+    .informacoes-right {
+        width: 100%;
+    }
+
+    .informacoes-left li, .informacoes-right li {
+        margin-bottom: 1em;
+    }
+
+    .vertical-line {
+        margin-top: 11%;
+    }
+
+    .box-images-footer{
+        padding: 1%;
+       
+    }
+
+    .images-footer div img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .images-footer div span {
+        font-size: 16px;
+    }
+
 }
 
-footer ul li{
-    list-style: none;
+@media screen and (min-width: 760px){
+    .produtos-catalogos {
+        width: 95%;
+        gap: 0.5em;
+        margin: 3em auto;
+    }
+
+    .produtos-catalogos img {
+        width: 100%;
+    }
 }
 
-.box-footer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+@media screen and (min-width: 700px){
+    .vertical-line {
+        width: 300px;
+        margin-top: 9%;
+    }
 }
 
-.box-left-footer, .box-rigth-footer{
-    font-size: 20px;
-}
+@media screen and (max-width: 450px){
+    .card h3{
+        font-size: 12px;
+    }
+    .produtos-catalogos {
+        width: 90%;
+        gap: 0.5em;
+        margin: 2em auto;
+    }
 
-.box-rigth-footer img{
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
+    .produtos-catalogos img {
+        width: 100%;
+    }
 }
-
-.box-rigth-footer ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 2% 0;
-}
-
-.space-list{
-    margin-top: 22%;
-}
-

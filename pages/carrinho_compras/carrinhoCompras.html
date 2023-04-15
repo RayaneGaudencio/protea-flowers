@@ -4,17 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrinho de Compras</title>
+    <title>Carrinho de Compras - Protea Flowers</title>
     <link rel="stylesheet" href="estiloCarrinhoCompras.css">
     <link rel="stylesheet" href="../../components/everyPages.css">
-  <!-- Importação dos arquivos CSS do Slick carousel -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
-
-  <!-- Importação do jQuery -->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   
-  <link rel="shortcut icon" href="../../components/images/favicon-2.png" type="image/x-icon">
+    <!-- Importação do jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <link rel="shortcut icon" href="../../components/images/favicon-2.png" type="image/x-icon">
 
 </head>
 <body>
@@ -33,7 +30,6 @@
                 placeholder="Buscar..." onclick="this.placeholder=''">
             </div>
             <nav class="botoes-entrar-cadastrar">
-                <span class="entrar buttons">Entrar</span>
                 <span class="buttons"><a href="../cadastro_cliente/cadastroCliente.html">Cadastre-se</a></span>
             </nav>
         </div>
@@ -49,7 +45,7 @@
                 <span class="buttons"><a href="../contato/contato.html">CONTATO</a></span>
             </nav>
             <div>
-                <img class="icon-header" src="../../components/images/🦆 icon _person_.png" alt="Ícone de pessoa">
+                <a href=" "><img class="icon-header" src="../../components/images/🦆 icon _person_.png" alt="Ícone de pessoa"></a>
                 <img class="icon-header" src="../../components/images/🦆 icon _bell_.png" alt="ícone de sino">
                 <img class="icon-header" src="../../components/images/🦆 icon _cart_.png" alt="Ícone de carrinho">
             </div>
@@ -58,10 +54,11 @@
     </header>
     <main>
     	<section class="box-principal">
-    		<div class="box-migalhas">
-    			<h3>Home | Carrinho de Compras</h3>
-    			<h1>CARRINHO DE COMPRAS</h1>
-    		</div>
+    		<div class="info-breadcrumbs">
+                <span class="breadcrumbs">Home |<span> Carrinho de Compras</span></span>
+                <h1>CARRINHO DE COMPRAS</h1>
+            </div>
+            
     		<div class="box-produtos-carrinho">
     			<h3>PRODUTOS SELECIONADOS:</h3>
     			<div class="box-colunas">
@@ -148,55 +145,63 @@
     		</div>
     	</section>
 
-         <section class="modal cliente">
-            <span class="legenda">Home | Entrar</span>
-            <div class="box-modal">
-                <img class="img-fechar" src="images/fechar.png">
-                <div class="clear"></div><!-- Limpeza da flutuação -->
-                <h3>LOGIN DO CLIENTE</h3>
-                <br>
-                <span class="text-modal">Bem vindo de volta ao nosso Jardim!</span>
-                <br>
-                <img class="img-google" src="images/button-google.png">
-                <form>
-                    <input class="input-login" type="e-mail" name="" placeholder="E-mail">
+        <!--INICIO MODAL PARA TODAS AS TELAS-->
+
+        <section class="fundo-modal cliente-modal">
+            <div class="modal cliente">
+                <span class="legenda">Home | Entrar</span>
+                <div class="box-modal">
+                    <img class="img-fechar" src="../../components/images/fechar.png">
+                    <div class="clear"></div><!-- Limpeza da flutuação -->
+                    <h3>LOGIN DO CLIENTE</h3>
                     <br>
-                    <input class="input-login" type="password" name="" placeholder="Senha">
+                    <span class="text-modal">Bem vindo de volta ao nosso Jardim!</span>
+                    <br>
+                    <img class="img-google" src="../../components/images/button-google.png">
+                    <form>
+                        <input class="input-login" type="e-mail" name="" placeholder="E-mail">
+                        <br>
+                        <input class="input-login" type="password" name="" placeholder="Senha">
 
-                    <div class="link-ajuda">
-                        <span class="text-red">Esqueceu a senha?</span>
-                        <span class="text-gray">Precisa de ajuda?</span>
-                    </div>
+                        <div class="link-ajuda">
+                            <span class="text-red">Esqueceu a senha?</span>
+                            <span class="text-gray">Precisa de ajuda?</span>
+                        </div>
 
-                    <input type="submit" name="" value="Entrar">
-                </form>
+                        <input type="submit" name="" value="Entrar">
+                    </form>
+                </div>
             </div>
         </section>
 
-        <section class="modal vendedor">
-            <span class="legenda">Home | Central do Vendedor | Login</span>
-            <div class="box-modal">
-                <img class="img-fechar" src="images/fechar.png">
-                <div class="clear"></div><!-- Limpeza da flutuação -->
-                <h3>LOGIN DO VENDEDOR</h3>
-                <br>
-                <span class="text-modal">Bem vindo de volta ao nosso Jardim!</span>
-                <br>
-                <img class="img-google" src="images/button-google.png">
-                <form>
-                    <input class="input-login" type="e-mail" name="" placeholder="E-mail">
+        <section class="fundo-modal  vendedor-modal">
+            <div class="modal vendedor">
+                <span class="legenda">Home | Central do Vendedor | Login</span>
+                <div class="box-modal">
+                    <img class="img-fechar" src="../../components/images/fechar.png">
+                    <div class="clear"></div><!-- Limpeza da flutuação -->
+                    <h3>LOGIN DO VENDEDOR</h3>
                     <br>
-                    <input class="input-login" type="password" name="" placeholder="Senha">
+                    <span class="text-modal">Bem vindo de volta ao nosso Jardim!</span>
+                    <br>
+                    <img class="img-google" src="../../components/images/button-google.png">
+                    <form>
+                        <input class="input-login" type="e-mail" name="" placeholder="E-mail">
+                        <br>
+                        <input class="input-login" type="password" name="" placeholder="Senha">
 
-                    <div class="link-ajuda">
-                        <span class="text-red">Esqueceu a senha?</span>
-                        <span class="text-gray">Precisa de ajuda?</span>
-                    </div>
+                        <div class="link-ajuda">
+                            <span class="text-red">Esqueceu a senha?</span>
+                            <span class="text-gray">Precisa de ajuda?</span>
+                        </div>
 
-                    <input type="submit" name="" value="Entrar">
-                </form>
+                        <input type="submit" name="" value="Entrar">
+                    </form>
+                </div>
             </div>
         </section>
+
+        <!--FIM MODAL PARA TODAS AS TELAS-->
         
     </main>
     <footer>

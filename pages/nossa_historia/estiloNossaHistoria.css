@@ -67,47 +67,76 @@
     font-size: 1.5em;
 }
 
-footer{
-    background-color: #0F270F;
-    font-size: 23px;
-    padding: 2%;
+.responsivo{
+    display: none;
 }
 
-footer h2{
-    font-family: 'Marcellus SC', serif;
-    font-weight: normal;
-    text-align: center;
-    padding-bottom: 5%;
+@media screen and (max-width: 1200px){
+    #titulo-nh {
+        font-family: 'Marcellus SC', serif;
+        margin-bottom: 50px;
+        color: #0F270F;
+        border-left: 4px solid #859479;
+        padding-left: 3px;
+        margin-top: 15px;
+        font-weight: 400;
+    }
+    .divisao-bloco{
+        margin: 0 2em;
+    }
+
+    .bloco-info-nh {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+
+    .bloco-info-nh p {
+        font-size: 16px;
+        
+    }
+
+    #texto-bloco-info-1 {
+        flex-direction: column;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .responsivo{
+        display: block;
+    }
+
+    .normal{
+        display: none;
+    }
+
+    #texto-bloco-info-2 {
+        flex-direction: column;
+        width: 100%;
+        text-align: justify;
+    }
+
+    #texto-bloco-info-3 {
+        flex-direction: column;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .imagem-bloco-info {
+        width: 100%;
+    }
+
+    .titulo-bloco-info{
+        margin: 1em 0;
+        font-size: 20px;
+        text-align: center;
+    }
 }
 
-footer ul li{
-    list-style: none;
-}
-
-.box-footer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.box-left-footer, .box-rigth-footer{
-    font-size: 20px;
-}
-
-.box-rigth-footer img{
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-}
-
-.box-rigth-footer ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 2% 0;
-}
-
-.space-list{
-    margin-top: 22%;
+@media screen and (min-width: 900px) and (max-width: 1200px){
+    .imagem-bloco-info {
+        width: 70%;
+    }
 }

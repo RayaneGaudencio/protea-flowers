@@ -1,23 +1,8 @@
-.box-migalhas{
-    margin: 2em;
-}
 
-.box-migalhas h3, .box-migalhas h1, .box-produtos-carrinho h3{
-    color: #0F270F;
-    font-weight: normal;
-}
-
-.box-migalhas h1{
-    font-family: 'Marcellus SC', serif;
-    font-size: 40px;
-    border-left: 6px solid #859479;
-    padding-left: 0.25em;
-    margin-top: 0.5em;
-}
 
 p {
     color:#0F270F;
-    font-size: 25px;
+    font-size: 22px;
     padding-left: 0.5em;
 }
 
@@ -99,7 +84,6 @@ p {
 .secao_2 textarea {
     height: 7em;
     resize: none;
-
 }
 
 button {
@@ -120,52 +104,79 @@ button:hover {
 }
 
 
+@media screen and (min-width: 1281px) and (max-width: 1350px){
+    p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1280px){
 
+    .info-breadcrumbs span{
+        font-size: 14px;
+    }
 
+    p {
+        font-size: 16px;
+    }
 
+    .add_produto {
+        margin: 2em;
+    }
 
-footer{
-    background-color: #0F270F;
-    font-size: 23px;
-    padding: 2%;
-    margin-top: 3%;
+    #responsivo{
+        display: none;
+    }
+
+    button{
+        font-size: 14px;
+    }
+
 }
 
-footer h2{
-    font-family: 'Marcellus SC', serif;
-    font-weight: normal;
-    text-align: center;
-    padding-bottom: 5%;
+@media screen and (max-width: 890px){
+    .add_produto {
+        margin: 1em;
+    }
 }
 
-footer ul li{
-    list-style: none;
+@media screen and (max-width: 845px){
+    p {
+        font-size: 14px;
+    }
+
+    .add_produto {
+        margin: 0.5em;
+    }
 }
 
-.box-footer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
+@media screen and (max-width: 750px){
+   .secao_1 {
+        flex-direction: column;
+        justify-content: center;
+    }
 
-.box-left-footer, .box-rigth-footer{
-    font-size: 20px;
-}
+    .coluna {
+        width: 100%;
+        margin: 0;
+    }
 
-.box-rigth-footer img{
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-}
+    .coluna input[type="text"], .coluna input[type="number"], .secao_2 textarea {
+        width: 100%;
+    }
 
-.box-rigth-footer ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 2% 0;
-}
+    #preco  {
+       flex-direction: column;
+    }
 
-.space-list{
-    margin-top: 22%;
+    p{
+        margin: 0.5em 0;
+    }
+
+    #preco p{
+        margin-right: 0;
+    }
+
+    button{
+        font-size: 14px !important;
+    }
 }

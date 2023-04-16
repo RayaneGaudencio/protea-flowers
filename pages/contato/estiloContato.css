@@ -56,8 +56,6 @@
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 
-
-
 #botao-enviar {
     background-color: #CF8368;
     border: 1px solid #767676;
@@ -95,60 +93,24 @@
     row-gap: 1.5em;
 }
 
+@media screen and (max-width: 850px){
+    .conteudo-c {
+        flex-direction: column;
+        justify-content: center;
+    }
 
+    .bloco-c {
+        width: 100%;
+        margin-bottom: 2em;
+    }
 
+    .icon-link {
+        flex-direction: row;
+        padding-top: 1.5em;
+        align-items: center;
+    }
 
-
-
-
-
-
-
-
-
-
-footer{
-    background-color: #0F270F;
-    font-size: 23px;
-    padding: 2%;
-    margin-top: 3%;
-}
-
-footer h2{
-    font-family: 'Marcellus SC', serif;
-    font-weight: normal;
-    text-align: center;
-    padding-bottom: 5%;
-}
-
-footer ul li{
-    list-style: none;
-}
-
-.box-footer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.box-left-footer, .box-rigth-footer{
-    font-size: 20px;
-}
-
-.box-rigth-footer img{
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-}
-
-.box-rigth-footer ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 2% 0;
-}
-
-.space-list{
-    margin-top: 22%;
+    .icons-redes-sociais {
+        width: 100%;
+    }
 }

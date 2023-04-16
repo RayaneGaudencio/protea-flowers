@@ -12,11 +12,11 @@
   
 
 }
-.box-caminho{
-    margin-left: 2em;
-    border-right: 1px solid #0F270F;
-    width: 87%;
+.info-breadcrumbs {
+    padding-left: 2em;
+    padding-top: 0em !important;
 }
+
 .barra-lateral h3{
     color: #0F270F;
     font-size: 25px;
@@ -82,7 +82,7 @@
     /*padding-left: 2em;*/
     width: 73%;
     overflow-y: scroll;
-    height: 2105px;
+    height: 1770px;
  
 }
 
@@ -217,153 +217,108 @@ button:hover{
     border: none;
     margin: 1em 0;
 }
-/*Estlos dos modais de login*/
 
-.modal{
-    width: 55%;
-    height: auto;
-    margin-top: 6%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
+
+@media screen and (min-width: 1025px){
+    .box-categorias ul li{
+        font-size: 20px;
+    }
 }
 
-.legenda{
-    padding: 2%;
-    visibility: v;
+@media screen and (max-width: 1024px){
+    .box-central{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .barra-lateral{
+        width: 40%;
+    }
+
+    .barra-lateral span{
+        font-size: 12px;
+    }
+
+    .barra-lateral h3{
+        color: #0F270F;
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .box-filtro{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 1em 0.5em;
+    }
+
+    .box-filtro h3{
+        font-size: 28px;
+    }
+
+    .box-filtro img{
+        width: 24px;
+    }
+
+    .box-categorias{
+        padding: 1em 0.5em 0em 0.5em;
+    }
+
+    .box-opcoes{
+        margin: 1em 0;
+    }
+
+    .box-categorias ul li{
+        font-size: 10px;
+    }
+
+    .box-container{
+        margin-left: 1em;
+    }
+
+    .box-produtos{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0em;
+        margin-top: 0.5em;
+        width: 60%;
+        height: 1670px;
+    }
+
+    .box-titulo h3{
+        font-size: 20px;
+        padding-left: 0.7em;
+    }
+
+    .box-titulo{
+        margin-top: 1em;
+    }
+
+    .caixa-texto h4{
+        font-size: 16px;
+    }
+
+    .caixa-texto span{
+        font-size: 16px;
+    }
+
+
+@media screen and (min-width: 751px){
+    .box-titulo h3{
+        font-size: 25px;
+        padding-left: 1.7em;
+    }
+    .box-categorias ul li{
+        font-size: 15px;
+    }
 }
 
-.box-modal{
-    width: 100%;
-    text-align: center;
-    background-color: #D9D9D9;
-    border-radius: 10px;
-}
-
-.box-modal h3{
-    font-weight: normal;
-    color: black;
-    margin:  0;
-}
-
-.text-modal{
-    color: #859479;
-    margin-bottom: 2%;
-}
-
-.img-fechar{
-    width: 35px;
-    height: 35px;
-    float: right;
-    margin: 10px 10px 0 10px;
-    cursor: pointer;
-}
-
-.clear{
-    clear: both;
-}
-
-.img-google{
-    width: 253px;
-    margin: 2% 0;
-    cursor: pointer;
-}
-
-.input-login{
-    width: 384px;
-    height: 35px;
-    margin-bottom: 1%;
-    border-radius: 6px;
-    padding-left: 2%;
-    border: none;
-    color: black;
-}
-
-.link-ajuda{
-    width: 75%;
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    margin: auto;
-    justify-content: space-around;
-}
-
-.text-red{
-    color: #9B2D25;
-    cursor: pointer;
-}
-
-.text-gray{
-    color: gray;
-    cursor: pointer;
-}
-
-.box-modal input[type='submit']{
-    width: 119px;
-    height: 35px;
-    background-color: #859479;
-    border: none;
-    cursor: pointer;
-    border-radius: 17px;
-    margin: 2% 0;
-}
-
-/*Fim dos estlos dos modais de login*/
-
-
-
-
-
-
-
-
-
-
-
-footer{
-    background-color: #0F270F;
-    font-size: 23px;
-    padding: 2%;
-    margin-top: 3%;
-}
-
-footer h2{
-    font-family: 'Marcellus SC', serif;
-    font-weight: normal;
-    text-align: center;
-    padding-bottom: 5%;
-}
-
-footer ul li{
-    list-style: none;
-}
-
-.box-footer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.box-left-footer, .box-rigth-footer{
-    font-size: 20px;
-}
-
-.box-rigth-footer img{
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-}
-
-.box-rigth-footer ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 2% 0;
-}
-
-.space-list{
-    margin-top: 22%;
+@media screen and (min-width: 600px) and (max-width: 750px){
+    .box-titulo h3{
+        padding-left: 1.7em;
+    }
+    .box-categorias ul li{
+        font-size: 15px;
+    }
 }

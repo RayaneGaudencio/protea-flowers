@@ -120,6 +120,8 @@ span, h3, h4, h5, li {
     width: 14em;    
     color: #000000;
     text-align: center;
+
+    margin-top: 2rem;
 }
 
 .container-2 {
@@ -198,4 +200,8 @@ span, h3, h4, h5, li {
 
 #produtos-estoque div img {
     width: 10rem;
+}
+
+#produtos-estoque hr {
+    margin: 2rem auto !important;
 }

@@ -1,19 +1,3 @@
-.box-migalhas{
-    margin: 2em;
-}
-
-.box-migalhas h1{
-    font-family: 'Marcellus SC', serif;
-    font-size: 30px;
-    border-right: 1px solid #859479;
-    color: #0F270F;
-}
-.box-migalhas h3 {
-    color: #0F270F;
-    font-weight: normal;
-    font-size: 18px;
-}
-
 .box-centro-dados{
     width: 70%;
     background-color: #FFFAF7;
@@ -47,73 +31,8 @@
     
 }
 
-.modal{
-    width: 55%;
-    height: auto;
-    margin-top: 4%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-}
-
-.modal span{
-    color: #859479;
-}
-
-.legenda{
-    color: white !important;
-}
-
-.teste{
-    padding: 0 7em;
-}
-.box-modal{
-    width: 100%;
-    text-align: center;
-    background-color: #D9D9D9;
-    border-radius: 10px;
-}
-
-.box-modal h3{
-    font-weight: normal;
-    color: black;
-    margin:  0;
-}
-
-.img-fechar{
-    width: 35px;
-    height: 35px;
-    float: right;
-    margin: 10px 10px 0 10px;
-    cursor: pointer;
-}
-
-
-
-.clear{
-    clear: both;
-}
-
-.box-modal input[type='submit']{
-    width: 200px;
-    height: 35px;
-    background-color: #CF8368;
-    border: none;
-    cursor: pointer;
-    border-radius: 17px;
-    margin: 4em 0;
-}
-
-.box-modal input[type='submit']:hover{
-    color: black;
-}
-
-/*Fim dos estlos dos modais de login*/
-
 form{
-    border: 1px solid gray;
+    border: 1px solid #bbbbbb;
 }
 
 .form-centro label{
@@ -125,6 +44,9 @@ form{
 .form-centro{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
 }
 
 .form-line{
@@ -142,7 +64,10 @@ form{
     height: 25px;
     color: black;
     padding-left: 1em;
+    border: 1px solid #bbbbbb;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
 }
+
 
 .form-line .input-100{
     width: 160px;
@@ -194,54 +119,76 @@ form{
     border-top-left-radius: 50px;
     
 }
+
+.box-endereco h3 {
+    font-weight: bold;
+}
+
 .clear{
     clear: both;
 }
 
 
+@media screen and (max-width: 1220px) {
 
-footer{
-    background-color: #0F270F;
-    font-size: 23px;
-    padding: 2%;
-    margin-top: 3%;
+    *{
+        font-size: 16px;
+    }
+
+    .titulo-font-marcellus {
+        font-size: 24px;
+    }
+
+    .endereco {
+        justify-content: space-between;
+    }
+
+    .box-endereco button{
+        width: 48%;
+        height: 30px;
+        font-size: 12px;
+    }
+    
+    .form-line .input-100{
+        width: 80%;
+        margin-right: 0.75em;
+    }
+
+    .form-line input {
+        width: 100%;
+        height: 25px;
+    }
+
+    .box-endereco h3, .box-endereco span {
+        color: black;
+        font-size: 12px;
+
+    }
+
+    .box-endereco {
+        margin-bottom: 1em;
+    }
+
+    .form-centro{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 95%;
+    }
+
+    .row {
+        
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
-footer h2{
-    font-family: 'Marcellus SC', serif;
-    font-weight: normal;
-    text-align: center;
-    padding-bottom: 5%;
-}
-
-footer ul li{
-    list-style: none;
-}
-
-.box-footer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.box-left-footer, .box-rigth-footer{
-    font-size: 20px;
-}
-
-.box-rigth-footer img{
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-}
-
-.box-rigth-footer ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 2% 0;
-}
-
-.space-list{
-    margin-top: 22%;
+@media screen and (max-width: 830px) {
+    .box-centro-dados{
+        width: 90%;
+        background-color: #FFFAF7;
+        margin: 0 auto;
+    }
 }

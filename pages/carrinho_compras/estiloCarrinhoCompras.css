@@ -121,7 +121,7 @@
 }
 
 
-@media screen and (max-width: 820px){
+@media screen and (max-width: 1280px){
     .box-produtos-carrinho h3, .info-breadcrumbs h1{
         font-size: 20px;
     }
@@ -153,7 +153,91 @@
     margin: 1em 0;
 }
 
-.box-descricao span{
-    
+
+.linha{
+    border-right: none;
+    padding-right: 0;
+    height: auto;
+}
+
+.centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-frete{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin: 2em 0;
+ }
+
+.input {
+    display: flex;
+    flex-direction: row;
+    background-color: #859479;
+    width: 300px;
+    height: 70px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.5em;
+    border: none;
+}
+
+.total-compra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    justify-content: center;
+}
+
+.total-compra p{
+    color: #0F270F;
+    padding-right: 0;
+}
+
+.box-principal {
+    width: 70%;
+    margin: 0 auto;
 }
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+    .box-inputs, .total {
+        width: 100%;
+    }
+    .input {
+    display: flex;
+    flex-direction: row;
+    background-color: #859479;
+    width: 500px;
+    height: 70px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.5em;
+    border: none;
+}
+
+.total-compra button, #botao{
+    width: 500px;
+    height: 40px;
+    background-color: #CF8368;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+}
+

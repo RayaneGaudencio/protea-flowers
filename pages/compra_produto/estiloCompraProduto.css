@@ -160,55 +160,67 @@ textarea {
     clear: both;
 }
 
+@media screen and (min-width: 921px) and (max-width: 1280px){
+    *{
+        font-size: 20px;
+    }
 
-
-
-
-
-
-
-footer{
-    background-color: #0F270F;
-    font-size: 23px;
-    padding: 2%;
-    margin-top: 3%;
+    .principal {
+        width: 80%;
+    }
 }
 
-footer h2{
-    font-family: 'Marcellus SC', serif;
-    font-weight: normal;
-    text-align: center;
-    padding-bottom: 5%;
+@media screen and (max-width: 920px){
+    *{
+        font-size: 16px;
+    }
+
+    .principal-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 2em;
+    }
+
+    .primeiro {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0.5em;
+        margin-bottom: 1em;
+    }
+    
+    .texto {
+        text-align: center;
+        width: 100%;
+    }
+
+    .principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .info {
+        padding-left: 0.4em;
+        margin-bottom: 1em;
+    }
+
+    .baixo {
+        height: 30px;
+        font-size: 11px;
+        margin: 1.3em 0 !important;
+    }
+
+    textarea {
+        width: 88%;
+    }
+
+    .comentarios h3 {
+        margin-top: 1em;
+    }
 }
 
-footer ul li{
-    list-style: none;
-}
-
-.box-footer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.box-left-footer, .box-rigth-footer{
-    font-size: 20px;
-}
-
-.box-rigth-footer img{
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-}
-
-.box-rigth-footer ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 2% 0;
-}
-
-.space-list{
-    margin-top: 22%;
-}

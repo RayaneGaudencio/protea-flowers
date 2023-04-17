@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+
+    <link rel="stylesheet" href="perfil_vendedor.css">
+    <link rel="stylesheet" href="../../components/everyPages.css">
+</head>
+<body>
+    <header id="box-principal">
+        <div class="header-top">
+            <nav class="botoes-vendedor">
+                <span id="Central-vendedor" class="buttons">Central do Vendedor</span>
+                <span class="buttons"><a href="../cadastro_vendedor/cadastroVendedor.html">Torne-se Vendedor</a></span>
+            </nav>
+            <div class="barra-pesquisa">
+                <img src="images/icon-search.png" alt="">
+                <input 
+                type="search" 
+                name="pesquisar" 
+                id="input-pesquisa"
+                placeholder="Buscar..." onclick="this.placeholder=''">
+            </div>
+            <nav class="botoes-entrar-cadastrar">
+                <span id="entrar" class="buttons">Entrar</span>
+                <span class="buttons"><a href="../cadastro_cliente/cadastroCliente.html">Cadastre-se</a></span>
+            </nav>
+        </div>
+        <div class="header-bottom">
+            <a href="index.html">
+                <img id="logo" src="../../components/images/logo.png" alt="Logo da Protea Flowers">
+            </a>
+            <nav>
+                <span class="buttons" style="color: #0F270F"><a href="index.html">HOME</a></span>
+                <span class="buttons"><a href="../produtos/produtos.html">PRODUTOS</a></span>
+                <span class="buttons"><a href="../catalogos/catalogos.html">CATALOGOS</a></span>
+                <span class="buttons"><a href="../nossa_historia/nossaHistoria.html">NOSSA HISTÓRIA</a></span>
+                <span class="buttons"><a href="../contato/contato.html">CONTATO</a></span>
+            </nav>
+            <div>
+                <a href="perfil_vendedor.html">
+                    <img class="icon-header" src="../../components/images/🦆 icon _person_.png" alt="Perfil">
+                </a>
+                <img class="icon-header" src="../../components/images/🦆 icon _bell_.png" alt="ícone de sino">
+                <img class="icon-header" src="../../components/images/🦆 icon _cart_.png" alt="Ícone de carrinho">
+            </div>
+        </div>
+        <hr>
+        <section class="carrossel">
+            <img src="images/carrossel-1.png" alt="">
+            <img src="images/carrossel-2.png" alt="">
+            <img src="images/carrossel-3.png" alt="">
+        </section>
+    </header>
+    <main>
+        <div class="info-breadcrumbs">
+            <span class="breadcrumbs">Home | Central do Vendedor |<span> Perfil do Usuário</span></span>
+        </div>
+        <div class="container">
+            <div class="container-1">
+                <section id="perfil">
+                        <div id="perfil-top">
+                            <img src="images/foto-perfil.png" alt="Foto de perfil">
+                            <h4>Olá, Francisco Ferreira!</h4>
+                            <span>franciscoferreira@gmail.com</span>
+                        </div>
+                        <div id="perfil-center">
+                            <span><img src="images/cartao 1.png" alt="Minha carteira">Minha carteira</span>
+                            <span><img src="images/localizacao 1.png" alt="Localização">Endereços</span>
+                            <span><img src="images/configuracoes-cog 1.png" alt="Configurações">Configurações</span>
+                            <span><img src="images/minhas-mensagens.png" alt="Mensagens">Minhas mensagens</span>
+                            <span><img src="images/servico-de-registros.png" alt="Serviços de registro">Serviço de registros</span>
+                            <span><img src="images/central-de-ajuda.png" alt="Central de ajuda">Central de ajuda</span>
+                        </div>
+                        <div id="perfil-bottom">
+                            <span>Sair</span>
+                            <span>Gerenciar Conta</span>
+                        </div>
+                    </section>
+                    <div id="button-semear">
+                        <button>Plataforma SEMEAR</button>
+                    </div>
+            </div>
+            <div class="container-2">
+                    <section id="minhas-vendas">
+                        <span class="ver-mais">Ver tudo<img src="images/seta-direita 1.png" alt=""></span>
+                        <h3>Minhas vendas</h3>
+                        <div id="row-2">
+                            <li>
+                                <img src="images/processando.png" alt="Pedidos em proce/ssamento">
+                                <span>Processando</span>
+                            </li>
+                            <li>
+                                <img src="images/enviado.png" alt="Pedidos enviados">
+                                <span>Enviado</span>
+                            </li>
+                            <li>
+                                <img src="images/comentar.png" alt="Comentar">
+                                <span>Comentar</span>
+                            </li>
+                            <li>
+                                <img src="images/devolucao.png" alt="Pedir devolução">
+                                <span>Devolução</span>
+                            </li>
+                        </div>
+                        <div id="itens">
+                            <h5>22 de Outubro de 2022 | 22:24</h5>
+                            <aside>
+                                <img src="images/flor.png" alt="flor">
+                                <span>60 unidades</span>
+                                <span>R$600,00</span>
+                                <span>Enviado</span>
+                                <span>Detalhes da venda</span>
+                            </aside>
+                        </div>
+                    </section>
+                    <button id="button-adicionarproduto"><img src="images/sinal-de-mais.png"><h3>Adicionar produto</h3></button>
+                    <section id="produtos-catalogados">
+                        <h3>Produtos catalogados</h3>
+                        <div>
+                            <img src="images/astromelias-flores-tropicais.png" alt="Astromelias">
+                            <ol>
+                                <li>Atromélias</li>
+                                <li>Data de inserção: 18/05/2014</li>
+                                <li>Estoque: Disponível</li>
+                                <li>Valor Unitário: R$10,00</li>
+                                <li>Quantidade vendida: 4.503</li>
+                            </ol>
+                        </div>
+                        <div>
+                            <img src="images/heliconias.png" alt="heliconias">
+                            <ol>
+                                <li>Helicônia</li>
+                                <li>Data de inserção: 18/05/2020</li>
+                                <li>Estoque: Indisponível</li>
+                                <li>Valor unitário: R$10,00</li>
+                                <li>Quantidade vendida: 4.503</li>
+                            </ol>
+                        </span>
+                        </div>
+                        <span class="ver-mais">Ver mais<img src="images/seta-direita 1.png" alt=""></span>
+                    </section>
+                        <section id="produtos-estoque">
+                            <h3>Produtos em estoque</h3>
+                            <div>
+                                <img src="images/bastao-do-imperador.png" alt="Bastão do imperador">
+                                <span>Antúrio</span>
+                                <span>2.000 unidades em estoque</span>
+                                <span>Ultima reposição: 17/03/2023</span>
+                            </div>
+                            <hr>
+                            <div>
+                                <img src="images/hibisco.png" alt="Hibisco">
+                                <span>Hibisco</span>
+                                <span>800 unidades em estoque</span>
+                                <span>Ultima reposição: 28/03/2023</span>
+                            </div>
+                            <span class="ver-mais">Ver mais<img src="images/seta-direita 1.png">
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h2>Entre em contato para mais informações</h2>
+        <div class="box-footer">
+            <div class="box-left-footer">
+                <ul>
+                    <li>Rua das Colhetas, 258-A, Apipucos</li>
+                    <li>Recife, PE - Brasil</li>
+                    <li>CEP: 10254-330</li>
+                    <br>
+                    <br>
+                    <li>P&F DECORAÇÃO E AMBIENTAÇÃO</li>
+                    <li>LTDA 08.591.212/0004-07</li>
+                </ul>
+            </div>
+
+            <div class="logo-footer">
+                 <img src="../../components/images/logo.png">
+            </div>
+            
+            <div class="box-rigth-footer">
+                <span>Encontre-nos nas redes sociais</span>
+                <ul>
+                    <li>
+                        <img src="../../components/images/facebook.png">
+                    </li>
+                    <li>
+                        <img src="../../components/images/instagram.png">
+                    </li>
+                    <li>
+                        <img src="../../components/images/whatsapp.png">
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="../../components/images/logotipo-do-pinterest.png">
+                    </li>
+                    <li>
+                        <img src="../../components/images/twitter.png">
+                    </li>
+                    <li>
+                        <img src="../../components/images/youtube.png">
+                    </li>
+                </ul>
+                <span>contato@proteaflowers.com.br</span>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>

@@ -1,0 +1,201 @@
+.container {
+    display: flex;
+    font-size: 20px;
+}
+
+.container section {
+    background-color: #FFFAF7;
+    margin: 0.4em;
+    padding: 0.4em 0.8em;
+
+}
+
+span, h3, h4, h5, li {
+    color: #000000;
+}
+
+#perfil {
+    padding: 1em;
+}
+
+#perfil-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+#perfil-top img {
+    width: 10rem;
+}
+
+#perfil-center {
+    display: flex;
+    flex-direction: column;
+}
+
+#perfil-center span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0.5em;
+}
+
+#perfil-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2em;
+}
+
+#minhas-vendas {
+    width: 30em;
+}
+
+.ver-mais {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    font-size: 0.7em;
+    margin-top: 0.4rem;
+}
+
+.ver-mais img {
+    width: 0.8rem;
+    margin-left: 0.2em;
+}
+
+#ver-tudo img {
+    width: 0.6em;
+    height: 0.6em;
+}
+
+#minhas-vendas h3 {
+    margin-bottom: 0.8em;
+}
+
+#minhas-vendas #row-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.8em;
+}
+
+#minhas-vendas #row-2 li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#minhas-vendas #row-2 img{
+    width: 2em;
+}
+
+#minhas-vendas #itens {
+    background-color: rgba(133, 148, 121, 0.212);
+    padding: 0.5em 0.8em;
+    box-shadow: 0em 0.2em 0.4em rgba(0, 0, 0, 0.3);
+}
+
+#itens aside {
+    font-size: 0.8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#button-semear button {
+    all: unset;
+    
+    background-color: #DB8CB1;
+    padding: 0.3em;
+    border-radius: 1em;
+    width: 14em;    
+    color: #000000;
+    text-align: center;
+}
+
+.container-2 {
+    display: grid;
+    grid-template-areas: "MinhasVendas AdicionarProd"
+                        "MinhasVendas ProdCatalogados"
+                        "ProdEstoque ProdEstoque";
+
+    margin-right: 2em;
+}
+
+#minhas-vendas {
+    grid-area: MinhasVendas;
+}
+
+#produtos-catalogados {
+    grid-area: ProdCatalogados;
+
+}
+
+#produtos-catalogados div {
+    display: flex;
+    margin-top: 1rem;
+    gap: 1em;
+
+    font-size: 14px;
+}
+
+#produtos-catalogados div li {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#produtos-catalogados div img {
+    width: 8rem;
+    height: 8rem;
+}
+
+
+#button-adicionarproduto {
+    all: unset;
+    
+    background-color: #9B2D25;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    border-radius: 2em;
+
+    padding: 0.3rem;
+
+    grid-area: AdicionarProd;
+}
+
+#button-adicionarproduto h3 {
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+
+#produtos-estoque {
+    grid-area: ProdEstoque;
+}
+
+#produtos-estoque div {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+
+#produtos-estoque h3 {
+    margin-bottom: 1rem;
+}
+
+#produtos-estoque div img {
+    width: 10rem;
+}

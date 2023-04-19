@@ -42,6 +42,8 @@ a {
     text-decoration: none;
 }
 
+
+
 main {
     font-size: 2.3em;
 }
@@ -338,7 +340,7 @@ footer ul li{
     cursor: pointer;
 }
 
-.box-modal input[type='submit']{
+.box-modal input[type='button']{
     width: 119px;
     height: 35px;
     background-color: #859479;

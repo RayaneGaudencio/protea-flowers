@@ -44,9 +44,11 @@
                 <span class="buttons"><a href="../contato/contato.html">CONTATO</a></span>
             </nav>
             <div>
-                <a href=" "><img class="icon-header" src="../../components/images/🦆 icon _person_.png" alt="Ícone de pessoa"></a>
+                <img class="icon-header entrar" src="../../components/images/🦆 icon _person_.png" alt="Ícone de pessoa"></a>
                 <img class="icon-header" src="../../components/images/🦆 icon _bell_.png" alt="ícone de sino">
-                <img class="icon-header" src="../../components/images/🦆 icon _cart_.png" alt="Ícone de carrinho">
+                <a href="../carrinho_compras/carrinhoCompras.html">
+                    <img class="icon-header" src="../../components/images/🦆 icon _cart_.png" alt="Ícone de carrinho">
+                </a>
             </div>
         </div>
     <hr>
@@ -59,7 +61,7 @@
         </div>        
         
         <section class="principal">
-            <div class="">
+            <div class="bloco-1">
                 <div class="principal-box">
                     <img src="images/demostracao.png">
 
@@ -78,9 +80,38 @@
                         <p>*Frete Grátis na Primeira compra</p><br>
                     </div>
                 </div>
-                
+
+                <div class="box flor-parecida">
+                    <h3 id="titulo">Flores parecidas</h3>
+                    <div class="card">
+                        <div class="box-card">
+                            <img src="images/demostracao.png">
+                            <h3>BROMÉLIA ROSA</h3>
+                            <p class="preco">R$ 170,00</p>
+                            <p class="parcela">5x de R$ 34,00 sem juros</p>
+                            <button class="buttom baixo" style="background-color: #9B2D25;">ADICIONAR AO CARRINHO</button>
+                        </div>
+                        <div class="box-card">
+                            <img src="images/demostracao.png">
+                            <h3>BROMÉLIA ROSA</h3>
+                            <p class="preco">R$ 170,00</p>
+                            <p class="parcela">5x de R$ 34,00 sem juros</p>
+                            <button class="buttom baixo">ADICIONAR AO CARRINHO</button>
+                        </div>
+                        <div class="box-card">
+                            <img src="images/demostracao.png">
+                            <h3>BROMÉLIA ROSA</h3>
+                            <p class="preco">R$ 170,00</p>
+                            <p class="parcela">5x de R$ 34,00 sem juros</p>
+                            <button class="buttom baixo">ADICIONAR AO CARRINHO</button>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-            <div class="">
+
+
+            <div class="bloco-2">
                 <div class="box info">
                     <br>
                     <h3>Mais Informações</h3>
@@ -104,31 +135,30 @@
                         </ul>
                     </div>
                 </div>
-                <div class="box texto">
-                    <h3 id="titulo">Flores parecidas</h3>
-                    <div class="card">
-                        <div class="box-card">
-                            <img src="images/demostracao.png">
-                            <h3>BROMÉLIA ROSA</h3>
-                            <p class="preco">R$ 170,00</p>
-                            <p class="parcela">5x de R$ 34,00 sem juros</p>
-                            <button class="buttom baixo" style="background-color: #9B2D25;">ADICIONAR AO CARRINHO</button>
-                        </div>
-                        <div class="box-card">
-                            <img src="images/demostracao.png">
-                            <h3>BROMÉLIA ROSA</h3>
-                            <p class="preco">R$ 170,00</p>
-                            <p class="parcela">5x de R$ 34,00 sem juros</p>
-                            <button class="buttom baixo" style="background-color: #9B2D25;">ADICIONAR AO CARRINHO</button>
-                        </div>
+                <div class="comentarios">
+                    <h3>Avaliações</h3>
+                    <div id="av-geral">
+                        <img src="images/avaliacao.png">
+                        <p>4.0</p>
                     </div>
+                    <div class="av-usu">
+                        <p>Roberta</p>
+                        <img src="images/avaliacao.png">
+                    </div>
+                    <div class="av-usu">
+                        <p>Otavio</p>
+                        <img src="images/avaliacao.png">
+                    </div>
+                    <div class="av-usu">
+                        <p>Flávia</p>
+                        <img src="images/avaliacao.png">
+                    </div>
+
+
+                    <button class="buttom baixo">VER MAIS AVALIAÇÕES</button>
                 </div>
             </div>
-            <div class="comentarios">
-                <h3>Avaliações</h3>
-                <textarea placeholder="Este iten não tem avaliações"></textarea><br>
-                <button class="buttom baixo" style="background-color: #9B2D25; width: 30%;">Enviar Avaliação</button>
-            </div>
+            
         </section>
 
         <!--INICIO MODAL PARA TODAS AS TELAS-->
@@ -139,7 +169,7 @@
                 <div class="box-modal">
                     <img class="img-fechar" src="../../components/images/fechar.png">
                     <div class="clear"></div><!-- Limpeza da flutuação -->
-                    <h3>LOGIN DO CLIENTE</h3>
+                    <h3>LOGIN</h3>
                     <br>
                     <span class="text-modal">Bem vindo de volta ao nosso Jardim!</span>
                     <br>
@@ -154,7 +184,8 @@
                             <span class="text-gray">Precisa de ajuda?</span>
                         </div>
 
-                        <input type="submit" name="" value="Entrar">
+                        <input onclick="test2()" id="link2" type="button" name="" value="Entrar">
+                        
                     </form>
                 </div>
             </div>
@@ -181,7 +212,8 @@
                             <span class="text-gray">Precisa de ajuda?</span>
                         </div>
 
-                        <input type="submit" name="" value="Entrar">
+                        <input onclick="test();" id="link" type="button" name="" value="Entrar">
+
                     </form>
                 </div>
             </div>

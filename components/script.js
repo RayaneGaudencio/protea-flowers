@@ -36,6 +36,12 @@ document.addEventListener('DOMContentLoaded', function() {
        
     });
 
+     $("#finalizarCompra").click(function(){
+            
+        $(".aprovado").fadeIn();
+        // $('body').css("overflow", "hidden");
+    });
+
     //Fecha o modal
 
     $(".img-fechar").click(function(){

@@ -16,7 +16,7 @@
 
 }
 
-main span, h3, h4, h5, li {
+main span, a span, h3, h4, h5, li {
     color: #000000;
 }
 

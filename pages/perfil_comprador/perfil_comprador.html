@@ -29,7 +29,7 @@
             </nav>
         </div>
         <div class="header-bottom">
-            <a href="index.html">
+            <a href="../home/index.html">
                 <img id="logo" src="../home/images/logo.png" alt="Logo da Protea Flowers">
             </a>
             <nav>
@@ -40,13 +40,12 @@
                 <span class="buttons"><a href="../contato/contato.html">CONTATO</a></span>
             </nav>
             <div>
-                <a href="../perfil_comprador/perfil_comprador.html">
-                    <img class="icon-header" src="../../components/images/🦆 icon _person_.png" alt="Perfil">
-                </a>
+                <img class="icon-header entrar" src="../../components/images/🦆 icon _person_.png" alt="Perfil">
                 <img class="icon-header" src="../../components/images/🦆 icon _bell_.png" alt="ícone de sino">
-                <img class="icon-header" src="../../components/images/🦆 icon _cart_.png" alt="Ícone de carrinho">
+                <a href="../carrinho_compras/carrinhoCompras.html">
+                    <img class="icon-header" src="../../components/images/🦆 icon _cart_.png" alt="Ícone de carrinho">
+                </a>
             </div>
-            
         </div>
         <hr>
     </header>
@@ -76,10 +75,12 @@
                         id="input-pesquisa"
                         placeholder="Buscar..." onclick="this.placeholder=''">
                     </div>
-                     <div class="icons-mobile">
+                    <div class="icons-mobile">
                         <img class="icon-header entrar" src="../../components/images/🦆 icon _person_.png" alt="Ícone de pessoa">
                         <img class="icon-header" src="../../components/images/🦆 icon _bell_.png" alt="ícone de sino">
-                        <img class="icon-header" src="../../components/images/🦆 icon _cart_.png" alt="Ícone de carrinho">
+                        <a href="../carrinho_compras/estiloCarrinhoCompras.css">
+                            <img class="icon-header" src="../../components/images/🦆 icon _cart_.png" alt="Ícone de carrinho">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -120,7 +121,7 @@
                         </div>   
                     </div>
                     <div id="perfil-bottom">
-                        <span>Sair</span>
+                        <a href="../home/index.html"><span>Sair</span></a>
                         <span>Gerenciar Conta</span>
                     </div>
                 </div>
@@ -199,7 +200,7 @@
             </div>
         </div>
 
-         <!--INICIO MODAL PARA TODAS AS TELAS-->
+        <!--INICIO MODAL PARA TODAS AS TELAS-->
 
         <section class="fundo-modal cliente-modal">
             <div class="modal cliente">
@@ -207,7 +208,7 @@
                 <div class="box-modal">
                     <img class="img-fechar" src="../../components/images/fechar.png">
                     <div class="clear"></div><!-- Limpeza da flutuação -->
-                    <h3>LOGIN DO VENDEDOR</h3>
+                    <h3>LOGIN</h3>
                     <br>
                     <span class="text-modal">Bem vindo de volta ao nosso Jardim!</span>
                     <br>
@@ -222,7 +223,8 @@
                             <span class="text-gray">Precisa de ajuda?</span>
                         </div>
 
-                        <input type="submit" name="" value="Entrar">
+                        <input onclick="test2()" id="link2" type="button" name="" value="Entrar">
+                        
                     </form>
                 </div>
             </div>
@@ -249,7 +251,8 @@
                             <span class="text-gray">Precisa de ajuda?</span>
                         </div>
 
-                        <input type="submit" name="" value="Entrar">
+                        <input onclick="test();" id="link" type="button" name="" value="Entrar">
+
                     </form>
                 </div>
             </div>

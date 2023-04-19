@@ -45,9 +45,11 @@
                 <span class="buttons"><a href="../contato/contato.html">CONTATO</a></span>
             </nav>
             <div>
-                <a href=" "><img class="icon-header" src="../../components/images/🦆 icon _person_.png" alt="Ícone de pessoa"></a>
+                <img class="icon-header entrar" src="../../components/images/🦆 icon _person_.png" alt="Ícone de pessoa">
                 <img class="icon-header" src="../../components/images/🦆 icon _bell_.png" alt="ícone de sino">
-                <img class="icon-header" src="../../components/images/🦆 icon _cart_.png" alt="Ícone de carrinho">
+                <a href="../carrinho_compras/carrinhoCompras.html">
+                    <img class="icon-header" src="../../components/images/🦆 icon _cart_.png" alt="Ícone de carrinho">
+                </a>           
             </div>
         </div>
         <hr>
@@ -233,10 +235,12 @@
                     <h3>PRODUTOS EM EXIBIÇÃO</h3>
                 </div>
                 <div class="teste">
+                    
+                    <a href="../compra_produto/compra_produto.html">
                     <div class="box-demonstracao">
                         <div class="box-info-produtos">
-                            <img src="images/demostracao.png">
-                            <h4>BROMÉLIA ROSA</h4>
+                            <img src="images/astromelias-flores-tropicais 1demostracao.png">
+                            <h4>FLOR BANANEIRA</h4>
                             <div class="text-info">
                                 <span>Código: ADERLO88</span>
                                 <span>Disponível em estoque</span>
@@ -256,7 +260,9 @@
                             </div>
                         </div>
                     </div>
-                     <div class="box-demonstracao">
+                    </a>
+
+                    <div class="box-demonstracao">
                         <div class="box-info-produtos">
                             <img src="images/demostracao.png">
                             <h4>BROMÉLIA ROSA</h4>
@@ -479,7 +485,6 @@
             </div>
         </section>
         
-        
 
         <!--INICIO MODAL PARA TODAS AS TELAS-->
 
@@ -489,7 +494,7 @@
                 <div class="box-modal">
                     <img class="img-fechar" src="../../components/images/fechar.png">
                     <div class="clear"></div><!-- Limpeza da flutuação -->
-                    <h3>LOGIN DO VENDEDOR</h3>
+                    <h3>LOGIN</h3>
                     <br>
                     <span class="text-modal">Bem vindo de volta ao nosso Jardim!</span>
                     <br>
@@ -504,7 +509,8 @@
                             <span class="text-gray">Precisa de ajuda?</span>
                         </div>
 
-                        <input type="submit" name="" value="Entrar">
+                        <input onclick="test2()" id="link2" type="button" name="" value="Entrar">
+                        
                     </form>
                 </div>
             </div>
@@ -531,7 +537,8 @@
                             <span class="text-gray">Precisa de ajuda?</span>
                         </div>
 
-                        <input type="submit" name="" value="Entrar">
+                        <input onclick="test();" id="link" type="button" name="" value="Entrar">
+
                     </form>
                 </div>
             </div>

@@ -253,7 +253,7 @@ footer ul li{
 /*Estlos dos modais de login*/
 .fundo-modal{
     width: 100%;
-    height: 700px;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.75);
     position: absolute;
     top: 50%;

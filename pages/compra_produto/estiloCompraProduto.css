@@ -41,14 +41,13 @@
 }*/
 
 .principal-box {
-    
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    
     background-color: white;
 }
+
 .principal-box img{
     width: 50%;
     padding: 1em;
@@ -143,19 +142,22 @@ p {
 .box-info {
     display:flex;
     flex-direction: row;
-    gap: 2em;
+    justify-content: space-between;
+    gap: 1em;
     font-size: 20px;
     padding-top: 0;
-    
 }
 
 .box-info ul {
     list-style-type: none;
-    
 }
 
+.box-info ul li{
+    margin-bottom: 1em;
+}
 
 .baixo {
+    width: 90%;
     height: 30px;
     font-size: 14px;
     margin: 1em 0 !important;
@@ -197,7 +199,6 @@ p {
     gap: 0.5em;
     align-items: center;
     justify-content: center;
-    
     margin-bottom: 0.5em;
     margin-top: 0.5em;
 }
@@ -212,17 +213,74 @@ p {
 
 #av-buttom {
     display:flex;
-
     align-self: flex-end;
 }
-
 
 .clear {
     clear: both;
 }
 
-@media screen and (max-width: 830px){
+@media screen and (min-width: 1161px) and (max-width: 1260px){
+    .info ul {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 851px) and (max-width: 1160px){
+    .principal-box {
+        flex-direction: column;
+    }
+
+    .principal-box img{
+        width: 70%;
+    }
+
+    .texto {
+        width: 70%;
+    }
+
+    .texto h4 {
+        font-size: 29px;
+    }
     
+    h3 {
+        font-size: 20px;
+    }
+    
+    #parcelamento {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .info ul {
+        font-size: 15px;
+    }
+
+    .comentarios p {
+        color: #0F270F;
+        font-size:15px;
+    }
+
+     #av-geral p {
+        font-size: 18px;
+    }
+
+    .box-card button{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .info ul {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 850px){
+
     .breadcrumbs {
         font-size: 15px;
     }
@@ -240,24 +298,33 @@ p {
         justify-content: center;
         margin: 1em;
         gap: 1.5em;
-    
     }
-    
+
+    .principal-box {
+        flex-direction: column;
+    }
+
+    .principal-box img{
+        width: 70%;
+    }
+
+    .texto {
+        width: 70%;
+    }
+
     .bloco-2 {
         display:flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 100%;
         gap: 1.5em;
-        
-    }
-
-    .texto h4 {
-        font-size: 29px;
     }
     
+    .info ul {
+        font-size: 13px;
+    }
+
     h3 {
         font-size: 20px;
-
     }
     
     #parcelamento {
@@ -268,22 +335,6 @@ p {
         font-size: 12px;
     }
 
-    .buttom {
-        width: 90%;
-        height: 30px;
-        border-radius: 30px;
-        border: none;
-        margin-bottom: 0.5em;
-        color: #ffffff;
-        font-size: 12px;
-        cursor: pointer;
-    }
-
-    .info {
-        
-        width: 60%;
-    }
-
     .info ul {
         font-size: 15px;
     }
@@ -292,68 +343,13 @@ p {
         color: #0F270F;
         font-size:15px;
     }
-    
-    .comentarios img {
-        width: 50%;
-    }
-    
-    #av-geral p {
+
+     #av-geral p {
         font-size: 18px;
     }
-    
-    
+
+    .box-card button{
+        font-size: 11px;
+    }
 }
 
-/*@media screen and (max-width: 920px){
-    *{
-        font-size: 16px;
-    }
-
-    .principal-box {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-top: 2em;
-    }
-
-    .primeiro {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        padding: 0.5em;
-        margin-bottom: 1em;
-    }
-    
-    .texto {
-        text-align: center;
-        width: 100%;
-    }
-
-    .principal {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .info {
-        padding-left: 0.4em;
-        margin-bottom: 1em;
-    }
-
-    .baixo {
-        height: 30px;
-        font-size: 11px;
-        margin: 1.3em 0 !important;
-    }
-
-    textarea {
-        width: 88%;
-    }
-
-    .comentarios h3 {
-        margin-top: 1em;
-    }
-}*/

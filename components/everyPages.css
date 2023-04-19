@@ -72,7 +72,10 @@ header {
     justify-content: space-between;
     margin-bottom: 1em;
 }
-
+.icon-header{
+    width: 30px;
+    height: 30px;
+}
 .botoes-vendedor, .botoes-entrar-cadastrar {
     display: flex;
     gap: 2em;
@@ -375,6 +378,11 @@ footer ul li{
 
     .barra-pesquisa img{
         display: none;
+    }
+
+    .icon-header{
+        width: 20px;
+        height: 20px;
     }
 }
 

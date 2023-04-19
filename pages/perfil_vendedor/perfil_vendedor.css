@@ -58,7 +58,7 @@ main span, h3, h4, h5, li {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #minhas-vendas {

@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil</title>
+    <title>Perfil Vendedor - Protea Flowers</title>
 
     <link rel="stylesheet" href="../../components/everyPages.css">
     <link rel="stylesheet" href="perfil_vendedor.css">
 
     <link rel="shortcut icon" href="../../components/images/favicon-2.png" type="image/x-icon">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../../components/script.js"></script>
 </head>
 <body>
     <header id="box-principal">
@@ -27,25 +29,23 @@
                 placeholder="Buscar..." onclick="this.placeholder=''">
             </div>
             <nav class="botoes-entrar-cadastrar">
-                <span id="entrar" class="buttons">Entrar</span>
+                <span id="entrar" class="buttons"></span>
                 <span class="buttons"><a href="../cadastro_cliente/cadastroCliente.html">Cadastre-se</a></span>
             </nav>
         </div>
         <div class="header-bottom">
-            <a href="index.html">
+            <a href="../home/index.html">
                 <img id="logo" src="../../components/images/logo.png" alt="Logo da Protea Flowers">
             </a>
             <nav>
                 <span class="buttons" style="color: #0F270F"><a href="../home/index.html">HOME</a></span>
                 <span class="buttons"><a href="../produtos/produtos.html">PRODUTOS</a></span>
-                <span class="buttons"><a href="../catalogos/catalogos.html">CATALOGOS</a></span>
+                <span class="buttons"><a href="../catalogos/catalogos.html">CATÁLOGOS</a></span>
                 <span class="buttons"><a href="../nossa_historia/nossaHistoria.html">NOSSA HISTÓRIA</a></span>
                 <span class="buttons"><a href="../contato/contato.html">CONTATO</a></span>
             </nav>
             <div>
-                <a href="perfil_vendedor.html">
-                    <img class="icon-header" src="../../components/images/🦆 icon _person_.png" alt="Perfil">
-                </a>
+                <img class="icon-header entrar" src="../../components/images/🦆 icon _person_.png" alt="Perfil">
                 <img class="icon-header" src="../../components/images/🦆 icon _bell_.png" alt="ícone de sino">
                 <a href="../carrinho_compras/carrinhoCompras.html">
                     <img class="icon-header" src="../../components/images/🦆 icon _cart_.png" alt="Ícone de carrinho">
@@ -53,12 +53,56 @@
             </div>
         </div>
         <hr>
-        <section class="carrossel">
-            <img src="images/carrossel-1.png" alt="">
-            <img src="images/carrossel-2.png" alt="">
-            <img src="images/carrossel-3.png" alt="">
-        </section>
     </header>
+
+    <!--  Este header só será ativado quando as páginas estiverem no modo responsivo! -->
+    <header id="box-principal-mobile">
+        <div class="box-logo-menu-mobile">
+            <img class="menu-img" src="../../components/images/meu.png">
+             <a href="../home/index.html">
+                <img id="logo" src="../../components/images/logo.png" alt="Logo da Protea Flowers">
+            </a>
+        </div>
+        <div class="box-menu-mobile">
+            <nav class="botoes-vendedor">
+                 <span class="buttons"><a href="../cadastro_cliente/cadastroCliente.html">Cadastre-se</a></span>
+                <span class="Central-vendedor buttons">Central do Vendedor</span>
+                <span class="buttons"><a href="../cadastro_vendedor/cadastroVendedor.html">Torne-se Vendedor</a></span>
+            </nav>
+            <div class="header-top">
+                <div class="box-pesquisa-icons-mobile">
+                    <div class="barra-pesquisa">
+                        <img src="../../components/images/icon-search.png" alt="">
+                        <input 
+                        type="search" 
+                        name="pesquisar" 
+                        id="input-pesquisa"
+                        placeholder="Buscar..." onclick="this.placeholder=''">
+                    </div>
+                     <div class="icons-mobile">
+                        <img class="icon-header entrar" src="../../components/images/🦆 icon _person_.png" alt="Ícone de pessoa">
+                        <img class="icon-header" src="../../components/images/🦆 icon _bell_.png" alt="ícone de sino">
+                        <a href="../carrinho_compras/carrinhoCompras.html">
+                            <img class="icon-header" src="../../components/images/🦆 icon _cart_.png" alt="Ícone de carrinho">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <nav class="nav-pages-mobile">
+                    <span class="buttons" style="color: #0F270F"><a href="../home/index.html">HOME</a></span>
+                    <span class="buttons"><a href="../produtos/produtos.html">PRODUTOS</a></span>
+                    <span class="buttons"><a href="../catalogos/catalogos.html">CATÁLOGOS</a></span>
+                    <span class="buttons"><a href="../nossa_historia/nossaHistoria.html">NOSSA HISTÓRIA</a></span>
+                    <span class="buttons"><a href="../contato/contato.html">CONTATO</a></span>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--  Este header só será ativado quando as páginas estiverem no modo responsivo! -->
+
+
+
     <main>
         <div class="info-breadcrumbs">
             <span class="breadcrumbs">Home | Central do Vendedor |<span> Perfil do Vendedor</span></span>
@@ -82,13 +126,13 @@
                         </div>
                     </div>
                         <div id="perfil-bottom">
-                            <span>Sair</span>
+                            <a href="../home/index.html"><span>Sair</span></a>
                             <span>Gerenciar Conta</span>
                         </div>
                     </section>
-                    <div id="button-semear">
-                        <button>Plataforma SEMEAR</button>
-                    </div>
+                    <a id="button-semear" href="https://ead.senar.org.br/" target="_blank">
+                        <button>Plataforma SENEAR</button>
+                    </a>
             </div>
             <div class="container-2">
                     <section id="minhas-vendas">
@@ -105,11 +149,11 @@
                             </li>
                             <li>
                                 <img src="images/comentar.png" alt="Comentar">
-                                <span>Comentar</span>
+                                <span>Avaliações</span>
                             </li>
                             <li>
                                 <img src="images/devolucao.png" alt="Pedir devolução">
-                                <span>Devolução</span>
+                                <span>Devoluções</span>
                             </li>
                         </div>
                         <div id="itens">
@@ -123,9 +167,9 @@
                             </aside>
                         </div>
                     </section>
-                    <div id="button-responsivo">
+                    <a id="button-responsivo" href="../adicionar_produto/adicionar_produto.html">
                         <button id="button-adicionarproduto"><img src="images/sinal-de-mais.png"><h3>Adicionar produto</h3></button>
-                    </div>
+                    </a>
                     <section id="produtos-catalogados">
                         <h3>Produtos catalogados</h3>
                         <div>
@@ -170,6 +214,67 @@
                 </section>
             </div>
         </div>
+
+        <!--INICIO MODAL PARA TODAS AS TELAS-->
+
+        <section class="fundo-modal cliente-modal">
+            <div class="modal cliente">
+                <span class="legenda">Home | Entrar</span>
+                <div class="box-modal">
+                    <img class="img-fechar" src="../../components/images/fechar.png">
+                    <div class="clear"></div><!-- Limpeza da flutuação -->
+                    <h3>LOGIN</h3>
+                    <br>
+                    <span class="text-modal">Bem vindo de volta ao nosso Jardim!</span>
+                    <br>
+                    <img class="img-google" src="../../components/images/button-google.png">
+                    <form>
+                        <input class="input-login" type="e-mail" name="" placeholder="E-mail">
+                        <br>
+                        <input class="input-login" type="password" name="" placeholder="Senha">
+
+                        <div class="link-ajuda">
+                            <span class="text-red">Esqueceu a senha?</span>
+                            <span class="text-gray">Precisa de ajuda?</span>
+                        </div>
+
+                        <input onclick="test2()" id="link2" type="button" name="" value="Entrar">
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="fundo-modal  vendedor-modal">
+            <div class="modal vendedor">
+                <span class="legenda">Home | Central do Vendedor | Login</span>
+                <div class="box-modal">
+                    <img class="img-fechar" src="../../components/images/fechar.png">
+                    <div class="clear"></div><!-- Limpeza da flutuação -->
+                    <h3>LOGIN DO VENDEDOR</h3>
+                    <br>
+                    <span class="text-modal">Bem vindo de volta ao nosso Jardim!</span>
+                    <br>
+                    <img class="img-google" src="../../components/images/button-google.png">
+                    <form>
+                        <input class="input-login" type="e-mail" name="" placeholder="E-mail">
+                        <br>
+                        <input class="input-login" type="password" name="" placeholder="Senha">
+
+                        <div class="link-ajuda">
+                            <span class="text-red">Esqueceu a senha?</span>
+                            <span class="text-gray">Precisa de ajuda?</span>
+                        </div>
+
+                        <input onclick="test();" id="link" type="button" name="" value="Entrar">
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!--FIM MODAL PARA TODAS AS TELAS-->
+
     </main>
     <footer>
         <h2>Entre em contato para mais informações</h2>
@@ -219,4 +324,6 @@
         </div>
         
     </footer>
+
+    
 </html>

@@ -1,19 +1,45 @@
+function test2(){
+    var linktest = document.getElementById('link2');
+    linktest.onclick = function () {
+        window.location = "../perfil_comprador/perfil_comprador.html";
+    };
+}
+
+function test(){
+    var linktest = document.getElementById('link');
+    linktest.onclick = function () {
+        window.location = "../perfil_vendedor/perfil_vendedor.html";
+    };
+}
+
+
 document.addEventListener('DOMContentLoaded', function() {
 
 
     //Ativa o modal
 
-    $(".entrar, .Central-vendedor").click(function(){
-        if ($(this).attr('class') == "Central-vendedor") {
-            $(".vendedor-modal").fadeIn();
-            $(".vendedor").fadeIn();
-        }else{
-            $(".cliente-modal").fadeIn();
-            $(".cliente").fadeIn();
-        }
+    $(".entrar").click(function(){
+            
+        $(".cliente-modal").fadeIn();
+        $(".cliente").fadeIn();
+        
+        $('body').css("overflow", "hidden");
+        
+    });
+
+    $(".Central-vendedor").click(function(){
+        
+        $(".vendedor-modal").fadeIn();
+        $(".vendedor").fadeIn();
+       
         $('body').css("overflow", "hidden");
        
+    });
 
+     $("#finalizarCompra").click(function(){
+            
+        $(".aprovado").fadeIn();
+        // $('body').css("overflow", "hidden");
     });
 
     //Fecha o modal

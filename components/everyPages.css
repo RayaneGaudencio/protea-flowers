@@ -42,6 +42,8 @@ a {
     text-decoration: none;
 }
 
+
+
 main {
     font-size: 2.3em;
 }
@@ -70,7 +72,10 @@ header {
     justify-content: space-between;
     margin-bottom: 1em;
 }
-
+.icon-header{
+    width: 30px;
+    height: 30px;
+}
 .botoes-vendedor, .botoes-entrar-cadastrar {
     display: flex;
     gap: 2em;
@@ -338,7 +343,7 @@ footer ul li{
     cursor: pointer;
 }
 
-.box-modal input[type='submit']{
+.box-modal input[type='button']{
     width: 119px;
     height: 35px;
     background-color: #859479;
@@ -373,6 +378,11 @@ footer ul li{
 
     .barra-pesquisa img{
         display: none;
+    }
+
+    .icon-header{
+        width: 20px;
+        height: 20px;
     }
 }
 
@@ -478,6 +488,7 @@ footer ul li{
     footer{
         font-size: 16px;
     }
+    
     .logo-footer img{
         width: 150px;
     }
@@ -489,6 +500,10 @@ footer ul li{
     .box-rigth-footer img{
         width: 20px;
         height: 20px;
+    }
+
+    .modal{
+        width: 95%;
     }
 
 }

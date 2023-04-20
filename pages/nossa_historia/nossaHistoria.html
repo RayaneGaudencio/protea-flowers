@@ -38,15 +38,17 @@
             <nav>
                 <span class="buttons"><a href="../home/index.html">HOME</a></span>
                 <span class="buttons"><a href="../produtos/produtos.html">PRODUTOS</a></span>
-                <span class="buttons"><a href="../catalogos/catalogos.html">CATALOGOS</a></span>
+                <span class="buttons"><a href="../catalogos/catalogos.html">CATÁLOGOS</a></span>
                 <span class="buttons" style="color: #0F270F">NOSSA HISTÓRIA</span>
                 <span class="buttons"><a href="../contato/contato.html">CONTATO</a></span>
             </nav>
             <div>
-                <a href=" "><img class="icon-header" src="../../components/images/🦆 icon _person_.png" alt="Ícone de pessoa"></a>
+                <img class="icon-header entrar" src="../../components/images/🦆 icon _person_.png" alt="Ícone de pessoa">
                 <img class="icon-header" src="../../components/images/🦆 icon _bell_.png" alt="ícone de sino">
-                <img class="icon-header" src="../../components/images/🦆 icon _cart_.png" alt="Ícone de carrinho">
-            </div>
+                <a href="../carrinho_compras/carrinhoCompras.html">
+                    <img class="icon-header" src="../../components/images/🦆 icon _cart_.png" alt="Ícone de carrinho">
+                </a>
+            </div>        
         </div>
         <hr>
     </header>
@@ -55,7 +57,7 @@
     <header id="box-principal-mobile">
         <div class="box-logo-menu-mobile">
             <img class="menu-img" src="../../components/images/meu.png">
-             <a href="index.html">
+             <a href="../home/index.html">
                 <img id="logo" src="../../components/images/logo.png" alt="Logo da Protea Flowers">
             </a>
         </div>
@@ -78,15 +80,17 @@
                      <div class="icons-mobile">
                         <img class="icon-header entrar" src="../../components/images/🦆 icon _person_.png" alt="Ícone de pessoa">
                         <img class="icon-header" src="../../components/images/🦆 icon _bell_.png" alt="ícone de sino">
-                        <img class="icon-header" src="../../components/images/🦆 icon _cart_.png" alt="Ícone de carrinho">
+                        <a href="../carrinho_compras/carrinhoCompras.html">
+                            <img class="icon-header" src="../../components/images/🦆 icon _cart_.png" alt="Ícone de carrinho">
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="header-bottom">
                 <nav class="nav-pages-mobile">
-                    <span class="buttons" style="color: #0F270F"><a href="index.html">HOME</a></span>
+                    <span class="buttons" style="color: #0F270F"><a href="../home/index.html">HOME</a></span>
                     <span class="buttons"><a href="../produtos/produtos.html">PRODUTOS</a></span>
-                    <span class="buttons"><a href="../catalogos/catalogos.html">CATALOGOS</a></span>
+                    <span class="buttons"><a href="../catalogos/catalogos.html">CATÁLOGOS</a></span>
                     <span class="buttons"><a href="../nossa_historia/nossaHistoria.html">NOSSA HISTÓRIA</a></span>
                     <span class="buttons"><a href="../contato/contato.html">CONTATO</a></span>
                 </nav>
@@ -162,7 +166,7 @@
                 <div class="box-modal">
                     <img class="img-fechar" src="../../components/images/fechar.png">
                     <div class="clear"></div><!-- Limpeza da flutuação -->
-                    <h3>LOGIN DO VENDEDOR</h3>
+                    <h3>LOGIN</h3>
                     <br>
                     <span class="text-modal">Bem vindo de volta ao nosso Jardim!</span>
                     <br>
@@ -177,7 +181,8 @@
                             <span class="text-gray">Precisa de ajuda?</span>
                         </div>
 
-                        <input type="submit" name="" value="Entrar">
+                        <input onclick="test2()" id="link2" type="button" name="" value="Entrar">
+                        
                     </form>
                 </div>
             </div>
@@ -204,7 +209,8 @@
                             <span class="text-gray">Precisa de ajuda?</span>
                         </div>
 
-                        <input type="submit" name="" value="Entrar">
+                        <input onclick="test();" id="link" type="button" name="" value="Entrar">
+
                     </form>
                 </div>
             </div>

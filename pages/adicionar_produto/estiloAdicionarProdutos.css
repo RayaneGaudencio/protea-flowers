@@ -86,6 +86,12 @@ p {
     resize: none;
 }
 
+.add_produto a {
+    margin: 0 auto;
+    margin-top: 0.25em;
+}
+
+
 button {
     width: 300px;
     height: 50px;
@@ -96,6 +102,7 @@ button {
     border-top-left-radius: 58px;
     border-top-right-radius: 58px;
     border: none;
+    
 }
 
 button:hover {

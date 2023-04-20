@@ -1,6 +1,6 @@
-# Protea Flowers 
+# Protea Flowers 🌼
 
-## Desenvolvido pela equipe de estudantes do terceiro período do curso Análise e Desenvolvimento de Sistemas.
+## Website de vendas de flores tropicais desenvolvido pela equipe de estudantes do terceiro período do curso Análise e Desenvolvimento de Sistemas.
 ### Ferramentas utilizadas: 
 - HTML
 - CSS
